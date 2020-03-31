@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('navbar')
-
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid">
         <a class="navbar-brand js-scroll-trigger ml-5" href="#page-top">
@@ -275,26 +274,85 @@
 				<p></p>
 			</div><!-- end title -->
 		<div class="row">
+            <!--book-->
 			<div class="col-md-12">
-				<div class="button-group filter-button-group text-center">
-					<button data-toggle="modal" data-target="#book"> 	<i  class="fa fa-book"></i> Ном</button>
-					<button data-toggle="modal" data-target="#setguul"> 	<i  class="fab fa-affiliatetheme"></i> Сэтгүүл</button>
-					<button data-toggle="modal" data-target="#sonin"> 	<i  class="far fa-newspaper"></i> Сонин</button>
-					<button data-toggle="modal" data-target="#plakat"> 	<i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат</button>
-					<button data-toggle="modal" data-target="#orgomjlol"> 	<i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж</button>
-					<button data-toggle="modal" data-target="#invitation"> 	<i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ</button>
-					<button data-toggle="modal" data-target="#calendar"> 	<i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг</button>
-					<button data-toggle="modal" data-target="#value"> 	<i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал</button>
-					<button data-toggle="modal" data-target="#blank"> 	<i  class="fas fa-chalkboard"></i> Бланк</button>
-					<button data-toggle="modal" data-target="#bill"> 	<i  class="fas fa-file-invoice-dollar"></i> Билл</button>
-					<button data-toggle="modal" data-target="#dugtui"> 	<i  class="fa fa-envelope"></i> Дугтуй, Карамтай хавтас</button>
-					<button data-toggle="modal" data-target="#card"> 	<i  class="fa fa-credit-card"></i> Нэрийн хуудас</button>
-					<button data-toggle="modal" data-target="#tor"> 	<i  class="fa fa-shopping-bag"></i> Цаасан уут, Тор</button>
-					<button data-toggle="modal" data-target="#shoshgo"> 	<i  class="fas fa-mail-bulk"></i> Шошго</button>
-					<button data-toggle="modal" data-target="#box"> 	<i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол</button>
+				<button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#book">
+                    <i  class="fa fa-book"></i> Ном
+				</button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#setguul">
+                    <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button  style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#sonin">
+                    <i  class="far fa-newspaper"></i>  Сонин
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#plakat">
+                    <i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#orgomjlol">
+                    <i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#invitation">
+                    <i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#calendar">
+                    <i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#value">
+                    <i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#blank">
+                    <i  class="fas fa-chalkboard"></i> Бланк
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#bill">
+                    <i  class="fas fa-file-invoice-dollar"></i> Билл
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#dugtui">
+                    <i  class="fa fa-envelope"></i> Дугтуй, Карамтай хавтас
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#card">
+                    <i  class="fa fa-credit-card"></i> Нэрийн хуудас
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" ddata-toggle="modal" data-target="#shoshgo">
+                    <i  class="fa fa-mail-bulk"></i> Шошго
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#tor">
+                    <i  class="fas fa-shopping-bag"></i> Цаасан уут, Тор
+                </button>
+            </div>
+            <div class="col-md-12">
+                <button style="font-size:24px" class="text-left w-100 uk-h2 btn btn-primary" data-toggle="modal" data-target="#box">
+                    <i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол
+                </button>
+            </div>
 
-				</div>
-			</div>
+
+
 		</div>
 
 		</div>
@@ -302,14 +360,14 @@
 
 	<div id="product" class="section lb" >
 		<div class="container">
-			<div class="section-title text-center">
+			<div class="section-title text-left">
                 <h3>Бүтээгдэхүүн <span class="alert alert-warning">Засвартай</span> </h3>
                 <p>Бид өдрөөс, өдөрт шинийг эрэлхийлдэг.</p>
             </div><!-- end title -->
 
 			<div class="gallery-menu row">
 				<div class="col-md-12">
-					<div class="button-group filter-button-group text-center">
+					<div class="button-group filter-button-group text-left">
 						<button class="active" data-filter="*">All</button>
 						<button data-filter=".gal_a">Ном</button>
 						<button data-filter=".gal_b">Сэтгүүл</button>
@@ -643,6 +701,8 @@
     <script src="js/jquery.vide.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+
 	 <script>
 
       ScrollReveal().reveal('.widget', { interval: 200 });

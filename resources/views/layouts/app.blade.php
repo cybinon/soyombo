@@ -37,6 +37,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/package/custom.css') }}">
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="{{asset('js/app.js')}}"></script> <!-- app -->
 
     <style>
 	html.sr .widget {
