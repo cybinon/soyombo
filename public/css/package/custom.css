@@ -1,0 +1,33 @@
+.partner-img {
+  height: 100px;
+  clip-path: circle(80px at center);
+  filter: grayscale(100%);
+}
+.mover-logo {
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 50px solid #28aae2;
+  border-top: 0px solid #28aae27a;
+  height: 300px;
+  padding: 30px;
+}
+
+@media (min-width: 576px) {
+  .mover-logo {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .mover-logo {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .mover-logo {
+    height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .mover-logo {
+    height: 300px;
+  }
+}
