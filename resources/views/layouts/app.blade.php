@@ -123,6 +123,14 @@
 
             @yield('content')
 
+<ul class="ct-socials">
+  <li>
+    <a href="https://www.facebook.com/Soyomboprinting/" target="_blank"><i class="fab fa-facebook"></i></a>
+  </li>
+  <li>
+    <a href="https://forms.gle/HsV2UudpRsrWCxJE8" target="_blank"><i class="fas fa-user-edit"></i></a>
+  </li>
+</ul>
 
 </body>
 </html>

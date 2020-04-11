@@ -320,14 +320,14 @@
 
                 <div class="col-md-6 mt-5">
                     <div class="right-box-pro wow fadeIn">
-                        <img style="max-height:600px" src="uploads/top/spelling.png" alt="" class="img-fluid img-rounded">
+                        <img style="max-height:600px" src="uploads/undraw/spelling.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row mt-5" >
 				<div class="col-md-6 mt-5">
                     <div class="right-box-pro">
-                        <img style="max-height:600px" src="uploads/top/pantone.png" alt="" class="img-fluid img-rounded">
+                        <img style="max-height:600px" src="uploads/undraw/pantone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
                 <div class="col-md-6 mt-5">
