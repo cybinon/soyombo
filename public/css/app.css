@@ -10895,6 +10895,7 @@ a.text-dark:focus {
   margin-top: 2rem;
   height: 300px;
   padding: 30px;
+  z-index: 11;
 }
 
 @media (min-width: 576px) {
