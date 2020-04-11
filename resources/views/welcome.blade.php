@@ -109,10 +109,10 @@
 
 
 
-    <div id="services" class="section lb" >
+    <div id="services" class="section db" >
 	<div class="container-fluid">
 		<div class="section-title text-center">
-			<h3>Үйлчилгээ</h3>
+			<h3 class="text-light">Үйлчилгээ</h3>
 			<p></p>
 		</div><!-- end title -->
 
@@ -171,63 +171,63 @@
             <div class="row">
                 <!--book-->
                 <div class="col-md-3">
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary active">
                         <i  class="fa fa-book"></i> Ном
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
                     </button>
 
-                    <button  class="text-center w-100 mb-1 btn btn-primary">
+                    <button  class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="far fa-newspaper"></i>  Сонин
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-chalkboard"></i> Бланк
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-file-invoice-dollar"></i> Билл
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-envelope"></i> Дугтуй, Карамтай хавтас
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-credit-card"></i> Нэрийн хуудас
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-mail-bulk"></i> Шошго
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-shopping-bag"></i> Цаасан уут, Тор
                     </button>
 
-                    <button class="text-center w-100 mb-1 btn btn-primary">
+                    <button class="text-center w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол
                     </button>
                 </div>
@@ -261,114 +261,17 @@
 		</div>
 	</div>
 
-	<div id="product" class="section lb" >
-		<div class="container">
-			<div class="section-title text-left">
-                <h3>Бүтээгдэхүүн <span class="alert alert-warning">Засвартай</span> </h3>
-                <p>Бид өдрөөс, өдөрт шинийг эрэлхийлдэг.</p>
+	<div id="technology" class="section lb">
+        <div class="uk-container uk-container-large">
+
+            <div class="section-title text-center">
+				<h3>Технологи</h3>
+				<p></p>
             </div><!-- end title -->
 
-			<div class="gallery-menu row">
-				<div class="col-md-12">
-					<div class="button-group filter-button-group text-left">
-						<button class="active" data-filter="*">All</button>
-						<button data-filter=".gal_a">Ном</button>
-						<button data-filter=".gal_b">Сэтгүүл</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="gallery-list row">
-				<div class="col-md-3 col-sm-6 gallery-grid gal_b">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/setguul/s (1).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/setguul/s (1).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 gallery-grid gal_b">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/setguul/s (2).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/setguul/s (2).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i
-									class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 gallery-grid gal_b">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/setguul/s (3).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/setguul/s (3).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (1).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (1).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (2).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (2).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (3).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (3).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (4).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (4).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (5).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (5).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img style="height:300px;" src="uploads/nom/n (6).png" class="img-fluid" alt="Image">
-						<div class="img-overlay">
-							<a href="uploads/nom/n (6).png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-    </div>
-
-
-	<div id="technology" class="section wb">
-        <div class="uk-container uk-container-large">
             <div class="row">
                 <div class="col-md-6 mt-5">
-                    <div class="message-box">
+                    <div class="message-box text-dark">
                         <h2>Inkzone CIP4 өнгөний удирдлагын онлайн системийн онцлог, танилцуулга</h2>
                         <p> Соёмбо Принтинг ХХК 2019 оны 6-р сард Швейцарь улсын Zurikh хотод байрлалтай DIGITAL INFORMATION компанийн INKZONE CIP4 өнгөний удирдлагын цогц онлайн системийг амжилттай нэвтрүүллээ. Тус систем нь CTP RIP программаас өнгөний орцыг CIP4 хэл дээр хөрвүүлэн авч хэвлэлийн машины будгийн түлхүүрт автоматаар шилжүүлснээр хэвлэгчийн ур чадвар, хариуцлагаас хамаарах өнгөний зөрөөг арилгаж, DI Plot, InkZone Loop, InkZone Move, InkZone Connect зэрэг цогц программ хангамж, тоног төхөөрөмжийн тусламжтайгаар дардас цааснаас өнгөний шкаллыг уншиж, дахин тохиргоо хийснээр хэвлэлтийн өнгөний хэлбэлзэл, будаг өгөлтөөс шалтгаалсан хувирлыг үгүй болгодог. Энэхүү системийг суурилуулж, амжилттай нэвтрүүлснээр хэвлэлтийн өнгөний тогтвортой байдлыг дээд зэргээр хангаж, нэгж ажил эхлэх хугацаа, бэлтгэл ажлыг 15 хүртэл хувиар бууруулснаар цахилгаан эрчим хүч, хүн цагийг хэмнэж, хэвлэлтийн явцад автоматаар дахин тохиргоо хийснээр гарч болох үл тохирол, бусад эрсдлийг мэдэгдэхүйц бууруулаад байна.</p>
 
@@ -378,7 +281,7 @@
 
                 <div class="col-md-6 mt-5">
                     <div class="right-box-pro wow fadeIn">
-                        <img style="max-height:600px" src="uploads/top/inkzone-1.png" alt="" class="img-fluid img-rounded">
+                        <img style="max-height:600px" src="uploads/undraw/inkzone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
 			</div><!-- end row -->
@@ -390,7 +293,7 @@
                     </div><!-- end media -->
                 </div><!-- end col -->
                 <div class="col-md-6 mt-5">
-                    <div class="message-box">
+                    <div class="message-box text-dark">
                         <h2>ISO 9001-2015 олон улсын чанарын удирдлагын тогтолцоо</h2>
                         <p> Бид ISO 9001-2015 чанарын удирдлагын тогтолцоогоо амжилттай нэвтрүүлэн 2 удаагаа баталгаажууллаа. Соёмбо принтинг компани 2017 оноос эхлэн үйлдвэрлэл, бүтээгдэхүүн үйлчилгээнийхээ чанарыг дээшлүүлэх, ажилчдын ажиллах орчинд сайжруулах, харилцагчидын сэтгэл ханамжийг нэмэгдүүлэх зорилгоор ISO 9001-2015 Олон улсын чанарын удирдлагын тогтолцоог нэвтрүүлсэн билээ. 2018 онд бид олон улсын аудитын SES байгууллагатай хамтарч ажиллан ажлаа дүгнүүлэн чанарын удирдлагын тогтолцооны сертификатаа гардан авсан билээ. 2019 оны 12 сард 2 дахь шатны аудитын шалгалтаар "Олон улсын чанарын удирдлагын тогтолцоо" нэвтрүүлсэн гэдгээ батлан 2 дахь удаагаа баталгаажуулав.</p>
 
@@ -400,7 +303,7 @@
 			</div><!-- end row -->
 			<div class="row mt-5" >
                 <div class="col-md-6 mt-5">
-                    <div class="message-box">
+                    <div class="message-box text-dark">
                         <h2>Soyombo spelling алдаа шалгагч программ</h2>
                         <p> Бид нийгмийн хариуцлагын хүрээнд алдаагүй бүтээгдэхүүн үйлдвэрлэх зорилгоор Soyombo spelling программ зохион бүтээв.
 							2018 оны 9-р сараас эхлэн “Соёмбо Принтинг” ХХК-ийн санаачлагаар уг алдаа шалгагчийг Монгол Улсын Ерөнхийлөгчийн дэргэдэх Хэлний бодлогын үндэсний зөвлөлөөс эрхлэн гаргасан “Монгол хэлний зөв бичих дүрмийн журамласан толь”-д тулгуурлан үгийн санг бүрдүүлж, дүрмийн өөрчлөлтүүдийг тусган хөгжүүлж эхэлсэн билээ.
@@ -428,7 +331,7 @@
                     </div><!-- end media -->
                 </div><!-- end col -->
                 <div class="col-md-6 mt-5">
-                    <div class="message-box">
+                    <div class="message-box text-dark">
                         <h2>Pantone solid coated Онцлог, танилцуулга</h2>
                         <p> 2019 оны 9-р сараас эхлэн “Соёмбо Принтинг” ХХК БНСУ-ын DAIHAN INK Co.,Ltd-ээс албан ёсны эрхтэйгээр олон улсын PANTONE өнгөний системийн үндсэн 2300 гаруй өнгийн будгийг импортолж, салбартаа анх удаа PANTONE будгийг стандартын дагуу найруулан өөрсдийн үйлдвэрлэлд болон бусад хэвлэлийн компаниудад борлуулж эхлээд байна.
 		Тус өнгөний систем нь олон улсын хэвлэл болон бүх төрлийн будаг, өнгөт хавтан, тавилга, интерьер болон экстерьер дизайн гэх мэт маш өргөн хүрээтэй хэрэглэгддэг бөгөөд өнгийг ямар ч алдаагүй найдвартай дамжуулах шилдэг систем билээ.
@@ -524,7 +427,7 @@
 
 		</div>
     </div>
-    <div id="partner" class="section wb">
+    <div id="partner" class="section lb">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Хамтрагч Байгууллага</h3>
