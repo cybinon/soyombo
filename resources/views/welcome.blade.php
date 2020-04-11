@@ -175,7 +175,7 @@
                         <i  class="fa fa-book"></i> Ном
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-center w-100 mb-3 btn btn-primary" data-toggle="collapse" data-target="#collapseSecond" aria-expanded="true" aria-controls="collapseSecond">
                         <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
                     </button>
 
@@ -232,7 +232,7 @@
                     </button>
                 </div>
 
-                <div class="col-md-9 widget" style="height:250px">
+                <div class="col-md-9" style="height:250px">
                     <div class="text-dark collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="row">
                             <div class="col">
@@ -257,6 +257,32 @@
                             <p>Бүх төрлийн номын хавтсанд ороолт хавтас, клише (алтлаг, мөнгөлөг зэрэг төрөл бүрийн өнгөөр), эмбосс (товойлгох), хуурай даралт (хонхойлгох), гялгар, барзгар лак, лазер зүсэлт гэх мэт нэмэлт чимэглэлүүд хийснээр таны хэвлүүлсэн бүтээгдэхүүн улам тансаг, үнэ цэнэтэй болно.</p>
                         </div>{{-- Content end --}}
                     </div>{{-- Text Dark End --}}
+
+                     <div class="text-dark collapse" id="collapseSecond" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="row">
+                            <div class="col">
+                                <p>Бид бүх төрлийн сэтгүүлийг таны хүссэн загвар дизайнаар 5С UV лак, саатай, матт, гялгар бүрэлт, лазер зүсэлт, нэмэлт пантоне өнгө зэрэг орчин үеийн технологиор үйлдвэрлэж байна.</p><img src="uploads/setguul/s (1).png" style="width: 387px;" alt="The Nom">
+                            </div>
+                            <div class="col"><strong><img src="uploads/setguul/s (2).png" style="width: 387px;" alt="The Nom"></strong></div>
+                        </div>
+
+                        <div class="content">
+                        <p style="text-align: center;"><strong><br></strong></p><strong>ХЭМЖЭЭ:</strong>
+                        <p></p>
+                        <p>Стандартын А5, А4, В5 болон стандарт бус ямар ч хэмжээтэй байх боломжтой.</p>
+                        <p><strong>ЦААСНЫ ТӨРӨЛ:</strong></p>
+                        <p>B5 (176x250)<br>A4 (210x297)<br>B4 (250x353) <br> 80, 90, 100, 105, 128, 157, 200 гр/м2 нягтралтай цагаан (офсет), шохойтой, матт цаасан дээр дотор хэвлэлтийг хийнэ.</p>
+                        <p><strong>ХЭВЛЭЛИЙН ӨНГӨ:</strong></p>
+                            <p>Дотор хэвлэлийг 1+1 (хар), 2+2 (нэмэлт нэг өнгөтэй), 4+4 (өнгөт), 5+5 (үндсэн 4 өнгө, нэмэлт нэг өнгөтэй) өнгөтэй, хавтас нь дээрх өнгөний хослолуудаар хийж гүйцэтгэх боломжтой.</p>
+                        <p><strong>ХАВТАСНЫ ТӨРӨЛ:</strong></p>
+                        <p>Номын хавтсыг 200, 250, 300 гр/м2 цаасан хэвлэлт болон тусгай даавуу, лидерин зэрэг материалуудаар бүрж хавтаслах боломжтой.</p>
+                        <p><strong>БЭХЭЛГЭЭНИЙ ТӨРӨЛ:</strong></p>
+                            <p>Бэхэлгээ нь наалт (70-аас дээш нүүртэй энгийн болон супер хавтастай ном), унаа үдээ (70 хүртэл нүүртэй ном), оёо (70 хүртэл нүүртэй номыг шулуун оёогоор, 70-аас дээш нүүртэй номыг өндөрлөгөө оёогоор бэхэлнэ), спираль гэх мэт байна.</p>
+                        <p><strong>НЭМЭЛТ ЧИМЭГЛЭЛ:</strong></p>
+                            <p>Бүх төрлийн номын хавтсанд ороолт хавтас, клише (алтлаг, мөнгөлөг зэрэг төрөл бүрийн өнгөөр), эмбосс (товойлгох), хуурай даралт (хонхойлгох), гялгар, барзгар лак, лазер зүсэлт гэх мэт нэмэлт чимэглэлүүд хийснээр таны хэвлүүлсэн бүтээгдэхүүн улам тансаг, үнэ цэнэтэй болно.</p>
+                        </div>{{-- Content end --}}
+                    </div>{{-- Text Dark End --}}
+
                 </div>{{-- Col End --}}
             </div>{{-- Row end --}}
 		</div>
