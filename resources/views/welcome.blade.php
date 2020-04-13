@@ -297,61 +297,61 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid widget" >
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/nom/theNom.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>1</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/nom/4boti.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>2</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/setguul/s (3).png" alt="">
                         <div class="uk-position-center uk-panel"><h1>3</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/sonin/s (1).png" alt="">
                         <div class="uk-position-center uk-panel"><h1>4</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/plakat/plakat1.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>5</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/plakat/plakat2.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>6</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/valuepaper/1.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>7</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/valuepaper/2.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>8</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/calendar/1.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>9</h1></div>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img src="https://getuikit.com/docs/images/slider1.jpg" alt="">
+                        <img class="w-100" src="/uploads/calendar/2.png" alt="">
                         <div class="uk-position-center uk-panel"><h1>10</h1></div>
                     </div>
                 </li>
@@ -363,11 +363,13 @@
         </div>
     </div>{{-- Section End --}}
 	<div id="technology" class="section lb">
-        <div class="uk-container uk-container-large">
-            <div class="section-title text-center">
+        <div class="section-title text-center">
 				<h3>Технологи</h3>
 				<p></p>
             </div><!-- end title -->
+
+        <div class="uk-container uk-container-large">
+
 
             <div class="row widget-list">
                 <div class="col-md-6 mt-5 widget">
@@ -443,6 +445,88 @@
 			</div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+
+     <div id="partner" class="section lb">
+        <div class="section-title text-center">
+				<h3>Хамтрагч Байгууллага</h3>
+				<p></p>
+            </div><!-- end title -->
+
+        <div class="container">
+		<div class="row widget-list">
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray9.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray2.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray3.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray4.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray5.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray6.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray7.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray8.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray10.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray11.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray12.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray13.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray14.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray15.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray16.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray17.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray18.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray19.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray20.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray21.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray22.png" alt="partner">
+			</div>
+			<div class="col-md-2 col-3 mt-5 widget">
+				<img class="partner-img" src="uploads/partner/har-gray23.png" alt="partner">
+			</div>
+		</div>
+
+		</div>
+	</div>
 
 	<div id="contact" class="section lb" >
 		<div class="container">
@@ -527,86 +611,6 @@
 
 		</div>
     </div>
-    <div id="partner" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-				<h3>Хамтрагч Байгууллага</h3>
-				<p></p>
-			</div><!-- end title -->
-		<div class="row widget-list">
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray9.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray2.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray3.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray4.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray5.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray6.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray7.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray8.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray10.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray11.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray12.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray13.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray14.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray15.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray16.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray17.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray18.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray19.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray20.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray21.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray22.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-sm-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray23.png" alt="partner">
-			</div>
-		</div>
-
-		</div>
-	</div>
 
     <div id="contact" class="section db">
         <div class="container">
@@ -623,21 +627,21 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
+										<input class="form-control" id="name" type="text" placeholder="Нэр" required="required" data-validation-required-message="Та нэр оруулна уу">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+										<input class="form-control" id="email" type="email" placeholder="Таны цахим хаяг" required="required" data-validation-required-message="Цахим хаяг заавал оруулах хэрэгтэй.">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
+										<input class="form-control" id="phone" type="tel" placeholder="Таны утас" required="required" data-validation-required-message="Утасны дугаар ашиглан таньд эргүүлж хариу өгнө">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+										<textarea class="form-control" id="message" placeholder="Нэмэлт мэдээлэл"></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
@@ -690,5 +694,17 @@
 
 	 <script>
       ScrollReveal({reset: true}).reveal('.widget', { scale: 0.9, interval: 100 });
+
+     $(document).ready(function() {
+
+    $('.collapse').on('shown.bs.collapse', function () {
+        $(this).parent().addClass('active');
+    });
+
+    $('.collapse').on('hidden.bs.collapse', function () {
+        $(this).parent().removeClass('active');
+    });
+
+});
     </script>
 @endsection
