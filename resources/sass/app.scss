@@ -14,10 +14,12 @@
     clip-path: circle(80px at center);
     filter: grayscale(100%);
 }
+
 .mover-logo {
-    background: rgba(255, 255, 255, 0.9);
+    background: #fff;
+    background-size: cover;
     margin-top: 2rem;
-    height: 300px;
+    height: 100vh;
     padding: 30px;
     z-index: 11;
 }
@@ -70,23 +72,36 @@
     background: #3c9bd9;
 }
 
+.slide {
+    width: 100%;
+}
+
 @media (min-width: 576px) {
-    .mover-logo {
-        height: 300px;
-    }
 }
 @media (min-width: 768px) {
-    .mover-logo {
-        height: 300px;
-    }
 }
 @media (min-width: 992px) {
-    .mover-logo {
-        height: 300px;
-    }
 }
 @media (min-width: 1200px) {
-    .mover-logo {
-        height: 300px;
-    }
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #a8c0ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #3f2b96,
+        #a8c0ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to left,
+        #3f2b96,
+        #a8c0ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: 0.8;
+    z-index: 1;
 }

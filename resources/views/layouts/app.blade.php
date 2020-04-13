@@ -42,9 +42,7 @@
     <style>
 	html.sr .widget {
     visibility: hidden;
-}
-
-
+    }
 	.dg {
 		display: none;
 	}
@@ -70,7 +68,7 @@
  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
       <div class="container-fluid">
         <a class="navbar-brand js-scroll-trigger ml-5" href="#page-top">
-			<img class="img-fluid" style="max-height: 75px;" src="images/logo.png" alt="" />
+			<img class="img-fluid" style="max-height: 75px;" src="/images/logo.png" alt="" />
 		</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
@@ -102,7 +100,29 @@
     <a href="https://forms.gle/HsV2UudpRsrWCxJE8" target="_blank"><i class="fas fa-user-edit"></i></a>
   </li>
 </ul>
+<script>
+    $(document).ready(function(){
+    $(".products").hide();
+    $(".prointo").hide();
+    $("#bookp").show();
+    $("#testp   ").show();
+    $(".content").hide();
+});
 
+function switcher(content) {
+        content = "#"+content+"p";
+        $(".products").fadeOut("slow");
+        $(content+" .content").fadeIn();
+        $(content).delay(700).fadeIn("slow");
+}д
+function switcherc(content) {
+        content = "#"+content+"p";
+        $(".prointo").fadeOut("slow");
+        $(content+" .content").fadeIn();
+        $(content).delay(700).fadeIn("slow");
+}
+
+</script>
 
 </body>
 </html>
