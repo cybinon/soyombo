@@ -54,7 +54,7 @@
 @endif
 <body id="page-top" class="politics_version">
     <!-- LOADER -->
-    <div id="none preloader">
+    <div id="preloader">
         <div id="main-ld">
 			<div id="loader"></div>
 		</div>
