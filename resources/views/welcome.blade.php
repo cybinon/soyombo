@@ -73,7 +73,7 @@
     </div>
     <hr>
 
-		<div class="container-fluid mt-5">
+		<div class="uk-container uk-container-large mt-5">
 			<div class="row widget-list">
                 <div class="col-md-3 widget">
 					<div class="services-inner-box">
@@ -141,9 +141,8 @@
 			<p></p>
 		</div><!-- end title -->
 
-		<div class="row widget-list">
-			<div class="col-md-1"></div>
-			<div class="col-md-2 widget" >
+		<div class="row widget-list justify-content-center">
+			<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 
 							<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209384835940362/21.png" alt="1">
@@ -152,28 +151,28 @@
 						<p>Захиалах бүтээгдэхүүний нэр төрөл, хэлбэр хэмжээ, техник үзүүлэлтийг захиалгын менежерт мэдэгдэж урьдчилсан үнийн санал, бүтээгдэхүүн бэлэн болох тойм хугацааг гаргуулна.</p>
 					</div>
 				</div><!-- end col -->
-				<div class="col-md-2 widget" >
+				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209456965386280/22.png" alt="1">
 						<h2>Эх бэлтгэл, дизайн</h2>
 						<p>Бүтээгдэхүүний эх загвар, дизайныг хийлгэж, 1 удаа уншилт хэвлүүлэн авч засварлан, гарын үсэг зурж баталгаажуулсны дараа захиалга өгч үйлдвэрлэлд шилжинэ.<br>&nbsp;</p>
 					</div>
 				</div><!-- end col -->
-				<div class="col-md-2 widget" >
+				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209580818989086/23.png" alt="1">
 						<h2>Хэвлэх</h2>
 						<p>Эх нь эцсийн байдлаар батлагдан дараагийн дамжлагад шилжин, хавтан боловсруулах, хэвлэх цехүүдээр технологийн дагуу хэвлэгдэн гарна. Манай үйлдвэр 5 өнгөөр шууд хэвлэх давуу талтай.</p>
 					</div>
 				</div><!-- end col -->
-				<div class="col-md-2 widget" >
+				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209874613075968/24.png" alt="1">
 						<h2>Хэвлэсний дараах ажиллагаа</h2>
 						<p>Хэвлэх цехээс гарсан хэвлэмэл хуудсуудыг автомат нугалаа, холио, үдээ, оёо болон наалт, чамин урлал зэрэг цехүүдээр дамжин эцсийн бүтээгдэхүүн болно.</p>
 					</div>
 				</div><!-- end col -->
-				<div class="col-md-2 widget">
+				<div class="col-lg-2 col-md-6 widget">
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699210063558213642/25.png" alt="1">
 						<h2>Бэлэн бүтээгдэхүүн хүлээлгэн өгөх</h2>
@@ -195,63 +194,63 @@
             <div class="row" id="accordion">
                 <!--book-->
                 <div class="col-md-3 widget-list">
-                    <button class="widget text-center w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="book">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="book">
                         <i class="fa fa-book"></i> Ном
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="magazine">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="magazine">
                         <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
                     </button>
 
-                    <button  class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button  class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="far fa-newspaper"></i>  Сонин
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-chalkboard"></i> Бланк
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-file-invoice-dollar"></i> Билл
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-envelope"></i> Дугтуй, Карамтай хавтас
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-credit-card"></i> Нэрийн хуудас
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-mail-bulk"></i> Шошго
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fas fa-shopping-bag"></i> Цаасан уут, Тор
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         <i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол
                     </button>
                 </div>
@@ -479,59 +478,59 @@
              <div class="row" id="accordion">
                 <!--book-->
                 <div class="col-md-3 widget-list">
-                    <button class="widget text-center w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="test">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="test">
                         5С UV Лак
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="tester">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="tester">
                         Клише /Халуун дардас/
                     </button>
 
-                    <button  class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button  class="widget text-left w-100 mb-3 btn btn-primary">
                         Эмбосс /товгор дардас/
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Хуурай дардас
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Лазер зүсэлт
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         3д бүрэлт
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Heidelderg CD 102
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Muller martini наалтын шугам
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Muller martini үдээний шугам
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Нeidelberg нугалаа
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Muller martini оёо
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Колбус хатуу хавтасны шугам
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         SD-28 гурван тал огтлоо
                     </button>
 
-                    <button class="widget text-center w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary">
                         Ном пакетлах
                     </button>
 
@@ -539,7 +538,7 @@
 
                 <div class="col-md-9" style="">
                     <div class="text-light prointo" id="testp">
-                        <h1 class="uk-h2 font-weight-bold">5С UV Лак</h1>
+                        <h1 class="uk-h2 font-weight-bold text-light">5С UV Лак</h1>
                         <div class="row">
                             <div class="col">
                                 <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/nom/4boti.png" style="width: 387px;" alt="The Nom">
@@ -553,7 +552,7 @@
                     </div>{{-- Text light End --}}
 
                      <div class="text-light prointo" id="testerp">
-                        <h1 class="uk-h2 font-weight-bold">Клише /Халуун дардас/</h1>
+                        <h1 class="uk-h2 font-weight-bold text-ligth">Клише /Халуун дардас/</h1>
                         <div class="row">
                             <div class="col">
                                 <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/setguul/s (1).png" style="width: 387px;" alt="The Nom">
@@ -653,90 +652,6 @@
 		</div>
 	</div>
 
-	<div id="contact" class="section lb" >
-		<div class="container">
-			<div class="section-title text-center">
-                <h3>Бидэнтэй Холбогдох</h3>
-                <p></p>
-            </div><!-- end title -->
-
-			<div class="row widget-list">
-                <div class="col-md-4 col-sm-6 widget">
-                    <div class="pricingTable">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-									L0.732,193.75z"></path>
-									<text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="35">Хүний нөөц</text>
-                            </g>
-
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">BizNetwork</h3>
-                            <ul class="pricing-content">
-                                <li><b>Хүний нөөцтэй</b> Холбогдох</li>
-                                <li><b>Ажлын анкет</b> шалгах</li>
-
-                            </ul>
-                            <a href="https://www.biznetwork.mn/company/Soyombo-printing" class="sim-btn hvr-bounce-to-top pricingTable-signup">Шилжих</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 widget">
-                    <div class="pricingTable blue">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-									L0.732,193.75z"></path>
-									<text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="35">Social сүлжээ</text>
-                            </g>
-
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">Facebook</h3>
-                            <ul class="pricing-content">
-                                <li><b>Шинэ мэдээлэл</b> авах</li>
-                                <li><b>Урамшуулал</b> үзэх</li>
-                                <li><b>Хурдан Холбогдох</b></li>
-
-                            </ul>
-                            <a href="https://www.facebook.com/SoyomboPrinting/" class="sim-btn hvr-bounce-to-top pricingTable-signup">Шилжих</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 widget">
-                    <div class="pricingTable red">
-                        <svg x="0" y="0" viewBox="0 0 360 220">
-                            <g>
-                                <path fill="#28a9e2" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
-                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
-                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
-                                    L0.732,193.75z"></path>
-                            </g>
-                           <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="30">Хурдан холбогдох</text>
-                        </svg>
-                        <div class="pricing-content">
-                            <h3 class="title">Холбогдох Утас</h3>
-                            <ul class="pricing-content">
-                                <li><b>+976 9556 9646</b></li>
-                                <li><b>info@soyomboprinting.com</b></li>
-
-                            </ul>
-                            <a href="tel:95569646" class="sim-btn hvr-bounce-to-top pricingTable-signup">Залгах</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-		</div>
-    </div>
-
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
@@ -801,35 +716,32 @@
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
-    <script src="js/uikit.min.js"></script>
 	<!-- Camera Slider -->
-	<script src="js/jquery.mobile.customized.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/parallaxie.js"></script>
-	<script src="js/headline.js"></script>
+
 	<!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
-    <script src="js/jquery.vide.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 
 
 	 <script>
-      ScrollReveal({reset: true}).reveal('.widget', { scale: 0.9, interval: 100 });
+     ScrollReveal({reset: true}).reveal('.widget', { scale: 0.9, interval: 100 });
 
      $(document).ready(function() {
 
-    $('.collapse').on('shown.bs.collapse', function () {
-        $(this).parent().addClass('active');
-    });
+        $('.collapse').on('shown.bs.collapse', function () {
+            $(this).parent().addClass('active');
+        });
 
-    $('.collapse').on('hidden.bs.collapse', function () {
-        $(this).parent().removeClass('active');
-    });
+        $('.collapse').on('hidden.bs.collapse', function () {
+            $(this).parent().removeClass('active');
+        });
 
-});
+    });
     </script>
 @endsection

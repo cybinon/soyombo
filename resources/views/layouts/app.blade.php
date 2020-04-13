@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{ asset('css/package/responsive.css') }}">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/package/custom.css') }}">
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
     <script src="{{asset('js/app.js')}}"></script> <!-- app -->
 
     <style>
@@ -121,6 +121,15 @@ function switcherc(content) {
         $(content+" .content").fadeIn();
         $(content).delay(700).fadeIn("slow");
 }
+
+$(document).ready(function () {
+    $(".long_text").hide();
+    $(".show_hide").on("click", function () {
+        var txt = $(".content").is(':visible') ? 'Read More' : 'Read Less';
+        $(".show_hide").text(txt);
+        $(this).next('.content').slideToggle(200);
+    });
+});
 
 </script>
 

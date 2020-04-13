@@ -682,7 +682,8 @@ xclip
 
 
 .services-inner-box{
-	padding: 15px;
+    padding: 15px;
+    height: 530px;
 	background: #ffffff;
 	margin-bottom: 30px;
 	border-radius: 50px 50px 0px 50px;
