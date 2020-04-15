@@ -54,7 +54,7 @@
 @endif
 <body id="page-top" class="politics_version">
     <!-- LOADER -->
-    <div id="preloader">
+    <div id="none preloader">
         <div id="main-ld">
 			<div id="loader"></div>
 		</div>
@@ -107,6 +107,15 @@
     $("#bookp").show();
     $("#testp   ").show();
     $(".content").hide();
+
+
+    $(".texter").hide();
+    $(".show_hide").on("click", function () {
+        var txt = $(".texter").is(':visible') ? 'Read More' : 'Read Less';
+        $(".show_hide").text(txt);
+        $(this+".texter").fadeToggle(200);
+    });
+
 });
 
 function switcher(content) {
@@ -122,14 +131,6 @@ function switcherc(content) {
         $(content).delay(700).fadeIn("slow");
 }
 
-$(document).ready(function () {
-    $(".long_text").hide();
-    $(".show_hide").on("click", function () {
-        var txt = $(".content").is(':visible') ? 'Read More' : 'Read Less';
-        $(".show_hide").text(txt);
-        $(this).next('.content').slideToggle(200);
-    });
-});
 
 </script>
 

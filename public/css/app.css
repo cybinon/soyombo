@@ -10955,3 +10955,8 @@ a.text-dark:focus {
   z-index: 1;
 }
 
+.show_hide:not([href]) {
+  color: #fff;
+  text-decoration: none;
+}
+
