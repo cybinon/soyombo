@@ -67,7 +67,7 @@
 
  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
       <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger ml-5" href="#page-top">
+      <a class="navbar-brand js-scroll-trigger ml-5" href="{{url('/')}}">
 			<img class="img-fluid" style="max-height: 75px;" src="/images/logo.png" alt="" />
 		</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

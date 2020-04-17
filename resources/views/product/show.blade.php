@@ -4,7 +4,6 @@
 <div id="technology" class="section lb">
     <div class="section-title text-center">
         <h3>Ном</h3>
-        <p>Жижиг хэмжээний текст</p>
     </div><!-- end title -->
 
     <div class="container-fluid">
@@ -13,8 +12,9 @@
                 <img class="w-100" src="{{url('/uploads/nom/theNom.png')}}" alt="">
             </div>
             <div class="col-md-6 mb-2 text-center p-5">
-                <div class="anime"></div>
-
+                <div class="anime">
+                    {{view('data.product.book')}}
+                </div>
             </div>
             <div class="col-md-6 mb-2 bg-light">
                 <img class="w-100" src="{{url('/uploads/nom/n (4).png')}}" alt="">

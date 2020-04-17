@@ -202,111 +202,61 @@
                         <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
                     </button>
 
-                    <button  class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button  class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="newspaper">
                         <i  class="far fa-newspaper"></i>  Сонин
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="poster">
                         <i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="certificate">
                         <i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="invitation">
                         <i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="calendar">
                         <i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="security">
                         <i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="blank">
                         <i  class="fas fa-chalkboard"></i> Бланк
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="bill">
                         <i  class="fas fa-file-invoice-dollar"></i> Билл
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="envelope">
                         <i  class="fa fa-envelope"></i> Дугтуй, Карамтай хавтас
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="bussiness">
                         <i  class="fa fa-credit-card"></i> Нэрийн хуудас
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="label">
                         <i  class="fa fa-mail-bulk"></i> Шошго
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="paperbag">
                         <i  class="fas fa-shopping-bag"></i> Цаасан уут, Тор
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="packaging">
                         <i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол
                     </button>
                 </div>
 
                 <div class="col-md-9" style="">
-                    <div class="text-dark products" id="bookp">
-                        <h1 class="uk-h2 text-center font-weight-bold">Ном</h1>
-                        <div class="row">
-                            <div class="col">
-                                <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/nom/4boti.png" style="width: 387px;" alt="The Nom">
-                            </div>
-                            <div class="col"><strong><img src="https://myfiles.space/user_files/49597_a7a5248fc9c1e35a/49597_custom_files/img1586589651.png" style="width: 387px;" alt="The Nom"></strong></div>
-                        </div>
-
-                        <div class="content">
-                        <p style="text-align: center;"><strong><br></strong></p><strong>ХЭМЖЭЭ:</strong>
-                        <p></p>
-                        <p>Стандартын А6, А5, А4, A3, В6, В5, В4 болон стандарт бус ямар ч хэмжээтэй байх боломжтой.</p>
-                        <p><strong>ЦААСНЫ ТӨРӨЛ:</strong></p>
-                        <p>60, 70, 80, 90, 100, 105, 128, 157, 200 гр/м2 нягтралтай хөнгөн шар, гөлгөр шар, цагаан (офсет), шохойтой, матт гэх цаасан дээр хийнэ.</p>
-                        <p><strong>ХЭВЛЭЛИЙН ӨНГӨ:</strong></p>
-                            <p>Дотор хэвлэлийг 1+1 (хар), 2+2 (нэмэлт нэг өнгөтэй), 4+4 (өнгөт), 5+5 (үндсэн 4 өнгө, нэмэлт нэг өнгөтэй) өнгөтэй, хавтас нь дээрх өнгөний хослолуудаар хийж гүйцэтгэх боломжтой.</p>
-                        <p><strong>ХАВТАСНЫ ТӨРӨЛ:</strong></p>
-                        <p>Номын хавтсыг 200, 250, 300 гр/м2 цаасан хэвлэлт болон тусгай даавуу, лидерин зэрэг материалуудаар бүрж хавтаслах боломжтой.</p>
-                        <p><strong>БЭХЭЛГЭЭНИЙ ТӨРӨЛ:</strong></p>
-                            <p>Бэхэлгээ нь наалт (70-аас дээш нүүртэй энгийн болон супер хавтастай ном), унаа үдээ (70 хүртэл нүүртэй ном), оёо (70 хүртэл нүүртэй номыг шулуун оёогоор, 70-аас дээш нүүртэй номыг өндөрлөгөө оёогоор бэхэлнэ), спираль гэх мэт байна.</p>
-                        <p><strong>НЭМЭЛТ ЧИМЭГЛЭЛ:</strong></p>
-                            <p>Бүх төрлийн номын хавтсанд ороолт хавтас, клише (алтлаг, мөнгөлөг зэрэг төрөл бүрийн өнгөөр), эмбосс (товойлгох), хуурай даралт (хонхойлгох), гялгар, барзгар лак, лазер зүсэлт гэх мэт нэмэлт чимэглэлүүд хийснээр таны хэвлүүлсэн бүтээгдэхүүн улам тансаг, үнэ цэнэтэй болно.</p>
-                        </div>{{-- Content end --}}
-                    </div>{{-- Text Dark End --}}
-
-                     <div class="text-dark products" id="magazinep">
-                        <h1 class="uk-h2 text-center font-weight-bold">Сэтгүүл</h1>
-                        <div class="row">
-                            <div class="col">
-                                <p>Бид бүх төрлийн сэтгүүлийг таны хүссэн загвар дизайнаар 5С UV лак, саатай, матт, гялгар бүрэлт, лазер зүсэлт, нэмэлт пантоне өнгө зэрэг орчин үеийн технологиор үйлдвэрлэж байна.</p><img src="uploads/setguul/s (1).png" style="width: 387px;" alt="The Nom">
-                            </div>
-                            <div class="col"><strong><img src="uploads/setguul/s (2).png" style="width: 387px;" alt="The Nom"></strong></div>
-                        </div>
-
-                        <div class="content">
-                        <p style="text-align: center;"><strong><br></strong></p><strong>ХЭМЖЭЭ:</strong>
-                        <p></p>
-                        <p>Стандартын А5, А4, В5 болон стандарт бус ямар ч хэмжээтэй байх боломжтой.</p>
-                        <p><strong>ЦААСНЫ ТӨРӨЛ:</strong></p>
-                        <p>B5 (176x250)<br>A4 (210x297)<br>B4 (250x353) <br> 80, 90, 100, 105, 128, 157, 200 гр/м2 нягтралтай цагаан (офсет), шохойтой, матт цаасан дээр дотор хэвлэлтийг хийнэ.</p>
-                        <p><strong>ХЭВЛЭЛИЙН ӨНГӨ:</strong></p>
-                            <p>Дотор хэвлэлийг 1+1 (хар), 2+2 (нэмэлт нэг өнгөтэй), 4+4 (өнгөт), 5+5 (үндсэн 4 өнгө, нэмэлт нэг өнгөтэй) өнгөтэй, хавтас нь дээрх өнгөний хослолуудаар хийж гүйцэтгэх боломжтой.</p>
-                        <p><strong>ХАВТАСНЫ ТӨРӨЛ:</strong></p>
-                        <p>Номын хавтсыг 200, 250, 300 гр/м2 цаасан хэвлэлт болон тусгай даавуу, лидерин зэрэг материалуудаар бүрж хавтаслах боломжтой.</p>
-                        <p><strong>БЭХЭЛГЭЭНИЙ ТӨРӨЛ:</strong></p>
-                            <p>Бэхэлгээ нь наалт (70-аас дээш нүүртэй энгийн болон супер хавтастай ном), унаа үдээ (70 хүртэл нүүртэй ном), оёо (70 хүртэл нүүртэй номыг шулуун оёогоор, 70-аас дээш нүүртэй номыг өндөрлөгөө оёогоор бэхэлнэ), спираль гэх мэт байна.</p>
-                        <p><strong>НЭМЭЛТ ЧИМЭГЛЭЛ:</strong></p>
-                            <p>Бүх төрлийн номын хавтсанд ороолт хавтас, клише (алтлаг, мөнгөлөг зэрэг төрөл бүрийн өнгөөр), эмбосс (товойлгох), хуурай даралт (хонхойлгох), гялгар, барзгар лак, лазер зүсэлт гэх мэт нэмэлт чимэглэлүүд хийснээр таны хэвлүүлсэн бүтээгдэхүүн улам тансаг, үнэ цэнэтэй болно.</p>
-                        </div>{{-- Content end --}}
-                    </div>{{-- Text Dark End --}}
+                    {{view('data.product.all')}}
 
                 </div>{{-- Col End --}}
             </div>{{-- Row end --}}
@@ -315,7 +265,7 @@
     <div id="product" class="section db">
         <div class="section-title text-center">
             <h3 class="text-light">Бүтээгдэхүүн</h3>
-            <p>Бид өдөр бүр шинэ зүйлийг бүтээдэг</p>
+            <p>Бид өдөр бүр шинэ бүтээл урладаг</p>
         </div>
 
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
