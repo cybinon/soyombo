@@ -97,16 +97,16 @@
     <a href="https://www.facebook.com/Soyomboprinting/" target="_blank"><i class="fab fa-facebook"></i></a>
   </li>
   <li>
-    <a href="tel:+97699181421"><i class="fas fa-phone"></i></a>
+    <a href="tel:+97699181421"><i class="fas fa-phone"></i> &nbsp;<span>99181421</span></a>
   </li>
   <li>
-    <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i></a>
+    <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i> &nbsp;<span>info@soyomboprinting.com</span></a>
   </li>
   <li>
-    <a href="https://forms.gle/HsV2UudpRsrWCxJE8" target="_blank"><i class="fas fa-user-edit"></i></a>
+    <a href="https://forms.gle/HsV2UudpRsrWCxJE8" target="_blank"><i class="fas fa-user-edit"></i> &nbsp;<span>Сэтгэл ханамжийн судалгаа</span></a>
   </li>
   <li>
-    <a href="https://www.biznetwork.mn/company/Soyombo-printing" target="_blank"><i class="fas fa-briefcase"></i></a>
+    <a href="https://www.biznetwork.mn/company/Soyombo-printing" target="_blank"><i class="fas fa-briefcase"></i>  &nbsp;<span>Хүний нөөц</span></a>
   </li>
 </ul>
 <script>
