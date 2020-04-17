@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/product/book', function () {
-    return view('product.book');
+Route::get('/product/{book}', function () {
+    return view('product.show');
 });
 
 Auth::routes();

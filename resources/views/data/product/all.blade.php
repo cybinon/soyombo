@@ -3,13 +3,95 @@
     <h1 class="uk-h2 text-center font-weight-bold">Ном</h1>
     <div class="row">
         <div class="col">
-            <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/nom/4boti.png" style="width: 387px;" alt="The Nom">
+            <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p>
+            <img src="/uploads/product/4boti.png" style="width: 387px;" alt="The Nom">
         </div>
         <div class="col">
             <img src="https://myfiles.space/user_files/49597_a7a5248fc9c1e35a/49597_custom_files/img1586589651.png" style="width: 387px;" alt="The Nom">
         </div>
     </div>
+ <div class="section db mt-3">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid widget" >
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/1.png" alt="">
 
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/2.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/3.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/4.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/5.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/6.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/7.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/8.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/9.png" alt="">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/10.png" alt="">
+
+                    </div>
+                </li>
+                 <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/11.png" alt="">
+
+                    </div>
+                </li>
+                 <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/book/12.png" alt="">
+
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+    </div>{{-- Section End --}}
     <div class="content">
     {{view('data.product.book')}}
     </div>
