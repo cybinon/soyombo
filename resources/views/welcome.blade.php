@@ -28,9 +28,10 @@
               <a class="nav-link js-scroll-trigger" href="#technology">Технологи</a>
             </li>
 
-            {{-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Мэдээ мэдээлэл</a>
-            </li> --}}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#news">Мэдээ мэдээлэл</a>
+            </li>
+
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Холбоо Барих</a>
             </li>
@@ -66,7 +67,8 @@
 
             <div class="col-md-6 mt-5 widget">
                 <div class="right-box-pro wow fadeIn">
-                    <img style="max-height:600px" src="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" alt="" class="img-fluid img-rounded">
+                    {{-- <img style="max-height:600px" src="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" alt="" class="img-fluid img-rounded"> --}}
+                    <video class="w-100" src="/uploads/video/intro.mp4" controls></video>
                 </div><!-- end media -->
             </div><!-- end col -->
         </div><!-- end row -->
@@ -356,93 +358,66 @@
              <div class="row" id="accordion">
                 <!--book-->
                 <div class="col-md-3 widget-list">
-                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="test">
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="test">
                         5С UV Лак
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="tester">
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="tester">
                         Клише /Халуун дардас/
                     </button>
 
-                    <button  class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button  class="text-left w-100 mb-3 btn btn-primary">
                         Эмбосс /товгор дардас/
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Хуурай дардас
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Лазер зүсэлт
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         3д бүрэлт
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Heidelderg CD 102
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Muller martini наалтын шугам
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Muller martini үдээний шугам
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Нeidelberg нугалаа
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Muller martini оёо
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Колбус хатуу хавтасны шугам
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         SD-28 гурван тал огтлоо
                     </button>
 
-                    <button class="widget text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary">
                         Ном пакетлах
                     </button>
 
                 </div>
 
                 <div class="col-md-9" style="">
-                    <div class="text-light prointo" id="testp">
-                        <h1 class="uk-h2 font-weight-bold text-light">5С UV Лак</h1>
-                        <div class="row">
-                            <div class="col">
-                                <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/nom/4boti.png" style="width: 387px;" alt="The Nom">
-                            </div>
-                            <div class="col"><strong><img src="https://myfiles.space/user_files/49597_a7a5248fc9c1e35a/49597_custom_files/img1586589651.png" style="width: 387px;" alt="The Nom"></strong></div>
-                        </div>
-
-                        <div class="content">
-
-                        </div>{{-- Content end --}}
-                    </div>{{-- Text light End --}}
-
-                     <div class="text-light prointo" id="testerp">
-                        <h1 class="uk-h2 font-weight-bold text-ligth">Клише /Халуун дардас/</h1>
-                        <div class="row">
-                            <div class="col">
-                                <p>Номыг хуудасны тооноос нь хамааран 5-48 хуудастайг товхимол, 48-аас их хуудастайг ном гэж ангилдаг мөн хавтасны төрлөөр нь хатуу, зөөлөн гэж ангилдаг</p><img src="uploads/setguul/s (1).png" style="width: 387px;" alt="The Nom">
-                            </div>
-                            <div class="col"><strong><img src="uploads/setguul/s (2).png" style="width: 387px;" alt="The Nom"></strong></div>
-                        </div>
-
-                        <div class="content">
-
-                        </div>{{-- Content end --}}
-                    </div>{{-- Text light End --}}
-
+                    {{view('data.service.all')}}
                 </div>{{-- Col End --}}
             </div>{{-- Row end --}}
         </div>{{-- Container end --}}
@@ -529,7 +504,24 @@
 
 		</div>
 	</div>
+    <div id="news" class="section db">
+        <div class="section-title text-center">
+				<h3 class="text-light">Мэдээ, Мэдээлэл</h3>
+				<p></p>
+            </div><!-- end title -->
 
+        <div class="row" >
+            <div class="col">
+                <video class="w-100" src="/uploads/video/1.mp4" controls></video>
+
+            </div>
+
+            <div class="col">
+                <video class="w-100" src="/uploads/video/2.mp4" controls></video>
+            </div>
+        </div>
+
+    </div><!-- end section -->
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
