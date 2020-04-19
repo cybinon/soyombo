@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="{{ asset('css/package/responsive.css') }}">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/package/custom.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <script src="{{asset('js/app.js')}}"></script> <!-- app -->
 

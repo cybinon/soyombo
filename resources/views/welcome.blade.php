@@ -358,28 +358,32 @@
              <div class="row" id="accordion">
                 <!--book-->
                 <div class="col-md-3 widget-list">
-                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="test">
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
                         5С UV Лак
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="tester">
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="klishe">
                         Клише /Халуун дардас/
                     </button>
 
-                    <button  class="text-left w-100 mb-3 btn btn-primary">
-                        Эмбосс /товгор дардас/
+                    <button  class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="emboss">
+                        Эмбосс /Товгор дардас/
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
-                        Хуурай дардас
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="deboss">
+                        Дебосс /Товгор дардас/
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="lazer">
                         Лазер зүсэлт
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
-                        3д бүрэлт
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="3d">
+                        3D бүрэлт
+                    </button>
+
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="panobook">
+                        PANOBOOK
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary">
@@ -403,15 +407,11 @@
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary">
-                        Колбус хатуу хавтасны шугам
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary">
                         SD-28 гурван тал огтлоо
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary">
-                        Ном пакетлах
+                        СТР Технологи
                     </button>
 
                 </div>
@@ -512,8 +512,7 @@
 
         <div class="row" >
             <div class="col">
-                <video class="w-100" src="/uploads/video/1.mp4" controls></video>
-
+                <a data-fancybox="gallery" href="uploads/video/1.mp4"><img src="uploads/product/book/1.png"></a>
             </div>
 
             <div class="col">
@@ -522,6 +521,7 @@
         </div>
 
     </div><!-- end section -->
+
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
@@ -533,7 +533,7 @@
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <form action="/send" id="" method="POST" name="sentMessage" novalidate="novalidate">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
@@ -597,6 +597,8 @@
     <script src="js/custom.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 
 	 <script>
