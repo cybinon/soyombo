@@ -386,31 +386,31 @@
                         PANOBOOK
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/1.mp4">
                         Heidelderg CD 102
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/naaltaa.mp4">
                         Muller martini наалтын шугам
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/2.mp4">
                         Muller martini үдээний шугам
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/3.mp4">
                         Нeidelberg нугалаа
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/oyo.mp4">
                         Muller martini оёо
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/4.mp4">
                         SD-28 гурван тал огтлоо
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary">
+                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="gallery" href="uploads/video/tech/ctp.mp4">
                         СТР Технологи
                     </button>
 
@@ -509,15 +509,57 @@
 				<h3 class="text-light">Мэдээ, Мэдээлэл</h3>
 				<p></p>
             </div><!-- end title -->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/1.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/2.mp4"><img src="uploads/video/poster.jpg"></a>
 
-        <div class="row" >
-            <div class="col">
-                <a data-fancybox="gallery" href="uploads/video/1.mp4"><img src="uploads/product/book/1.png"></a>
-            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/3.mp4"><img src="uploads/video/poster.jpg"></a>
 
-            <div class="col">
-                <video class="w-100" src="/uploads/video/2.mp4" controls></video>
-            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/4.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/5.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/6.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/7.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a data-fancybox="gallery" href="uploads/video/news/8.mp4"><img src="uploads/video/poster.jpg"></a>
+                    </div>
+                </li>
+
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
         </div>
 
     </div><!-- end section -->
