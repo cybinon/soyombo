@@ -316,59 +316,56 @@
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                     <li>
-                        <div class="uk-panel">
-                            <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
-                            <img src="uploads/video/poster.jpg">
-                            </a>
-                        </div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
+                        <img src="uploads/tech/1.png">
+                        </a>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Heiadberg</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
+
                             <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
-                            <img src="uploads/video/poster.jpg">
+                            <img src="uploads/tech/2.png">
                             </a>
-                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>naaltaa</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
-                            <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
-                            <img src="uploads/video/poster.jpg">
-                            </a>
-                        </div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
+                        <img src="uploads/tech/3.png">
+                        </a>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Үдээ</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
+
                             <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
-                            <img src="uploads/video/poster.jpg">
+                            <img src="uploads/tech/4.png">
                             </a>
-                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Нугалаа</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
+
                             <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
-                            <img src="uploads/video/poster.jpg">
+                            <img src="uploads/tech/5.png">
                             </a>
-                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Оёо</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
+
                             <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
-                            <img src="uploads/video/poster.jpg">
+                            <img src="uploads/tech/6.png">
                             </a>
-                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Огтлоо</h1></div>
                     </li>
 
                     <li>
-                        <div class="uk-panel">
                             <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
-                        <img src="uploads/video/poster.jpg">
+                            <img src="uploads/tech/7.png">
                             </a>
-                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Computer to plate</h1></div>
                     </li>
 
 
@@ -392,44 +389,44 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/1.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/1.mp4"><img src="uploads/news/1.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/2.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/2.mp4"><img src="uploads/news/2.png"></a>
 
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/3.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/3.mp4"><img src="uploads/news/3.png"></a>
 
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/4.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/4.mp4"><img src="uploads/news/4.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/5.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/5.mp4"><img src="uploads/news/5.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/6.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/6.mp4"><img src="uploads/news/6.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/7.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/7.mp4"><img src="uploads/news/7.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/8.mp4"><img src="uploads/video/poster.png"></a>
+                        <a data-fancybox="news" href="uploads/video/news/8.mp4"><img src="uploads/news/8.png"></a>
                     </div>
                 </li>
 
