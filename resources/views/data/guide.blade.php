@@ -1,17 +1,17 @@
 <div class="modal fade bd-example-modal-lg" id="guide" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-dark p-4">
-        <p class="w-100 text-center alert alert-success"><span style=""><strong>Эх бэлтгэлд тавигдах зөвлөмж</strong></span></p>
+        <h1 class="w-100 text-center alert alert-primary uk-text-uppercase"><span style=""><strong>Эх бэлтгэлийн зөвлөмж</strong></span></h1>
         <p><span style="">Харилцагч таны бэлдэж ирсэн анхан шатны эх материалыг бид мэргэжлийн эх бэлтгэлийн программд оруулан өрж техник ажиллагаа болон гоо зүйн дизайны ажиллагаа хийдэг билээ.&nbsp;</span></p>
         <div class="row">
-            <div class="col">
+            <div class="col-8">
                 <p style="display:inline">
                     <span style="font-weight:bold;">Та хэвлүүлэх эхээ авч ирэхдээ дараах зүйлсийг анхаарна уу.</span>
                 </p>
             <br><strong>Текст/бичвэр/</strong>: Та цахим хэлбэрээр буюу Microsoft Word, Microsoft Excel зэрэг программ дээр бичиж шивсэн байх.&nbsp;</span>
             <br> Зарим тохиолдолд бэлэн эх захиалгад оруулдаг хэдий ч мэргэжлийн бус хүний бэлдсэн эх нь огтлооны зай байхгүй, хэвлэлийн өнгө нь зөрүүтэй зэрэг алдаатай байдаг тул та аль болох ажлын задгай файлаа авч ирэхийг хичээгээрэй. эхийн өргөтгөлөө сонгоход тань тусламж болгох үүднээс дэлгэрэнгүй тайлбар орууллаа.
             </div>
-            <div class="col">
+            <div class="col-4">
                 <img class="w-100" src="https://media.discordapp.net/attachments/699189298057969664/701703737479004181/undraw_build_wireframe_u9m2.png" alt="">
             </div>
         </div>
@@ -35,7 +35,7 @@
 <div class="modal fade bd-example-modal-lg" tabindex="-1" id="warning" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-dark p-4">
-<p class="alert alert-warning text-center"><span style=""><strong>Үйлчлүүлэгчийн анхаарах зүйлс</strong></span></p>
+<h1 class="alert alert-warning text-center uk-text-uppercase"><span style=""><strong>Үйлчлүүлэгчийн анхаарах зүйлс</strong></span></h1>
 <p><span style="">Манай хэвлэлийн компани таны бэлдэж ирсэн анхан шатны эхийг хүлээн авч, мэргэжлийн эх бэлтгэлийн программд эх макетаа өрөх явцдаа &quot;<strong>Soyombo spelling</strong>&quot; алдаа шалгагч программаар үг үсгийн алдааг шалган танд 1 удаа уншилт гаргаж өгөх ба та уншилт хийх явцдаа дараах зүйлсийг анхаарна уу.</span></p>
 <p class="font-weight-bold"><span style=""><strong>Бэлэн болсон эхийг шалгахад тавигдах шаардлага:</strong></span></p>
 <ul>
@@ -47,10 +47,9 @@
     <li class=""><span style="font-weight:bold">°</span> <span> Зохиогчийн зассан засварууд зөв орсон эсэхийг тулгаж үзэх </span></li>
     <li class=""><span style="font-weight:bold">°</span> <span> Эцсийн байдлаар хэвлэлтэд явуулах PDF файлыг шалгаж үзэх /компьютер дээр сууж шалгах/ </span></li>
 </ul>
-<div class="row mt-3">
-    <div class="col"><img src="/uploads/other/papertree.png" alt=""></div>
-    <div class="col"><img src="/uploads/other/papertree2.png" alt=""></div>
-</div>
+<img class="w-100" src="/uploads/other/papertree2.png" alt="">
+<img class="w-100" src="/uploads/other/papertree.png" alt="">
+
 
     </div>
   </div>
@@ -59,12 +58,12 @@
 <div class="modal fade bd-example-modal-lg" tabindex="-1" id="papersize" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-dark p-4">
-        <p class="alert alert-primary text-center font-weight-bold">Цаасны хэмжээ</p>
-        <p>Хэвлэлийн салбарт үйл ажиллагаа явуулж буй хэвлэх үйлдвэрүүдээс хамгийн өргөн форматаар буюу В1 форматаар буюу 1020*725 мм хэвлэж байна. Стандарт болон стандарт бус хэмжээгээр таны хүсэл сонирхолд нийцүүлэн хэвлэнэ. Цаасны түгээмэл хэрэглэгддэг стандарт хэмжээсийг доор дэлгэрэнгүй оруулав.
+        <h1 class="alert alert-primary text-center uk-text-uppercase font-weight-bold">Цаасны хэмжээ</h1>
+        <p>Бид хэвлэлийн салбарт үйл ажиллагаа явуулж буй бусад хэвлэх үйлдвэрүүдээс хамгийн өргөн форматаар буюу В1 форматаар буюу 1020*725 мм хэвлэж байна. Стандарт болон стандарт бус хэмжээгээр таны хүсэл сонирхолд нийцүүлэн хэвлэнэ. Цаасны түгээмэл хэрэглэгддэг стандарт хэмжээсийг доор дэлгэрэнгүй оруулав.
 
         </p>
-        <img class="w-100" src="/uploads/other/paperinfo1.png" alt=""><br>
-        <img class="w-100" src="/uploads/other/paperinfo2.png" alt="">
+        <img class="w-100" src="/uploads/other/paperinfo2.png" alt="papersize"><br>
+        <img class="w-100" src="/uploads/other/paperinfo1.png" alt="papersize">
     </div>
   </div>
 </div>
