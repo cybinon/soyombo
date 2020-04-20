@@ -24,7 +24,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="embossp">
-    <h1 class="uk-h2 font-weight-bold text-light">Клише /Халуун дардас/</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">ЭМБОСС /Товгор дардас/</h1>
     <div class="row">
         <div class="col">
 
@@ -41,7 +41,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="debossp">
-    <h1 class="uk-h2 font-weight-bold text-light">Клише /Халуун дардас/</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">ДЕБОСС /Товгор дардас/</h1>
     <div class="row">
         <div class="col">
 
@@ -58,7 +58,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="lazerp">
-    <h1 class="uk-h2 font-weight-bold text-light">Клише /Халуун дардас/</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">ЛАЗЕР ЗҮСЭЛТ</h1>
     <div class="row">
         <div class="col">
 
@@ -75,7 +75,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="3dp">
-    <h1 class="uk-h2 font-weight-bold text-light">Клише /Халуун дардас/</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">3D бүрэлт</h1>
     <div class="row">
         <div class="col">
 
@@ -92,7 +92,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="panobookp">
-    <h1 class="uk-h2 font-weight-bold text-light">Panobook</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">PANOBOOK</h1>
     <div class="row">
         <div class="col">
 

@@ -1,3 +1,20 @@
+{{-- Guide """""""""""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
+<div class="text-dark products" id="guidep">
+    <h1 class="uk-h2 text-center font-weight-bold">Зөвлөмж</h1>
+    <div class="row justify-content-center">
+         <div class="col-9">
+            <a data-fancybox="gallery" href="/uploads/info1.png"><img src="/uploads/info1.png" alt="guide"></a>
+        </div>
+        <div class="col-6">
+            <a data-fancybox="gallery" href="/uploads/paperinfo1.png"><img src="/uploads/paperinfo1.png" alt="guide"></a>
+        </div>
+        <div class="col-6">
+            <a data-fancybox="gallery" href="/uploads/paperinfo2.png"><img src="/uploads/paperinfo2.png" alt="guide"></a>
+        </div>
+
+    </div>
+
+</div>{{-- Text Dark End --}}
 {{-- Ном """""""""""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="bookp">
     <h1 class="uk-h2 text-center font-weight-bold">Ном</h1>
@@ -322,6 +339,37 @@
             <img src="uploads/product/invitation/2.png" alt="product">
         </div>
     </div>
+    <div class="section db mt-3">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/invitation/1.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/invitation/2.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/invitation/3.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <img class="w-100" src="/uploads/product/invitation/4.png" alt="">
+                    </div>
+                </li>
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+    </div>{{-- Section End --}}
     <div class="content">
     {{view('data.product.invitation')}}
     </div>{{-- Content end --}}
@@ -472,13 +520,13 @@
 
 {{-- Dugtui """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="envelopep">
-    <h1 class="uk-h2 text-center font-weight-bold">Дугтуй, Карамтай хавтас</h1>
+    <h1 class="uk-h2 text-center font-weight-bold">Дугтуй, Карматай хавтас</h1>
     <div class="row">
         <div class="col">
-             <img src="uploads/product/invitation/1.png" alt="product">
+             <img src="uploads/product/envelope/1.png" alt="product">
         </div>
         <div class="col">
-            <img src="uploads/product/invitation/2.png" alt="product">
+            <img src="uploads/product/envelope/2.png" alt="product">
         </div>
     </div>
     <div class="section db mt-3">
@@ -486,50 +534,27 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/1.png" alt="">
-
+                        <img class="w-100" src="/uploads/product/envelope/1.png" alt="">
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/2.png" alt="">
-
+                        <img class="w-100" src="/uploads/product/envelope/2.png" alt="">
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/3.png" alt="">
-
+                        <img class="w-100" src="/uploads/product/envelope/3.png" alt="">
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/4.png" alt="">
+                        <img class="w-100" src="/uploads/product/envelope/4.png" alt="">
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/5.png" alt="">
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/6.png" alt="">
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/7.png" alt="">
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/8.png" alt="">
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-panel">
-                        <img class="w-100" src="/uploads/product/invitation/9.png" alt="">
+                        <img class="w-100" src="/uploads/product/envelope/5.png" alt="">
                     </div>
                 </li>
 

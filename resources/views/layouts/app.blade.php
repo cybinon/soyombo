@@ -114,30 +114,27 @@
     $(document).ready(function(){
     $(".products").hide();
     $(".prointo").hide();
-    $("#bookp").show();
-    $("#testp   ").show();
+    $("#guidep").show();
+    $("#klishep").show();
     $(".content").hide();
+    $('#klishep'+' .content').show();
 
 
     $(".texter").hide();
-    $(".show_hide").on("click", function () {
-        var txt = $(".texter").is(':visible') ? 'Read More' : 'Read Less';
-        $(".show_hide").text(txt);
-        $(this+".texter").fadeToggle(200);
-    });
+
 
 });
 
 function switcher(content) {
         content = "#"+content+"p";
         $(".products").fadeOut("slow");
-        $(content+" .content").fadeIn();
+        $(content+' .content').fadeIn();
         $(content).delay(700).fadeIn("slow");
 }д
 function switcherc(content) {
         content = "#"+content+"p";
         $(".prointo").fadeOut("slow");
-        $(content+" .content").fadeIn();
+        $(content+' .content').fadeIn();
         $(content).delay(700).fadeIn("slow");
 }
 
