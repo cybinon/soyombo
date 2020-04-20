@@ -25,7 +25,7 @@ $(function() {
                 url: "/send",
                 type: "POST",
                 data: {
-                    name: name,
+                    sentMessage: name,
                     phone: phone,
                     email: email,
                     message: message

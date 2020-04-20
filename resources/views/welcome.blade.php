@@ -575,7 +575,8 @@
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form action="/send" id="" method="POST" name="sentMessage" novalidate="novalidate">
+                        <form action="/send" id="contactFormnone" name="sentMessage" novalidate="novalidate">
+                            @csrf
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
@@ -589,13 +590,24 @@
 									<div class="form-group">
 										<input class="form-control" id="phone" type="tel" placeholder="Таны утас" required="required" data-validation-required-message="Утасны дугаар ашиглан таньд эргүүлж хариу өгнө">
 										<p class="help-block text-danger"></p>
-									</div>
+                                    </div>
+
+                                    <div class="form-group">
+										<select class="form-control" id="message" placeholder="Нэмэлт мэдээлэл">
+                                            <option value="1">TESTER</option>
+                                            <option value="2">TESTER</option>
+                                            <option value="3">TESTER</option>
+                                        </select>
+										<p class="help-block text-danger"></p>
+                                    </div>
 								</div>
 								<div class="col-md-6">
-									<div class="form-group">
+
+
+                                    <div class="form-group">
 										<textarea class="form-control" id="message" placeholder="Нэмэлт мэдээлэл"></textarea>
 										<p class="help-block text-danger"></p>
-									</div>
+                                    </div>
 								</div>
 								<div class="clearfix"></div>
 								<div class="col-lg-12 text-center">

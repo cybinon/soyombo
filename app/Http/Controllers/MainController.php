@@ -12,7 +12,9 @@ class MainController extends Controller
         $request = request();
         if ($request->isMethod('post')) {
 
-        $details = request()->validate([]);
+        $details = request()->validate([
+            'sentMessage' => 'required'
+        ]);
 
        // \Mail::to('info@soyomboprinting.com')->send(new SendMail($details));
         \Mail::to('nikorunikk@gmail.com')->send(new SendMail($details));
