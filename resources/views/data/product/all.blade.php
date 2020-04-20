@@ -205,7 +205,7 @@
     <h1 class="uk-h2 text-center font-weight-bold">Танилцуулга, Плакат</h1>
      <div class="row">
         <div class="col">
-             <a href="" data-fancybox="poster"><img src="uploads/product/poster/1.png" alt="product"></a>
+             <a href="" data-fancybox="poster"><img src="uploads/product/poster/5.png" alt="product"></a>
         </div>
         <div class="col">
             <a href="" data-fancybox="poster"><img src="uploads/product/poster/2.png" alt="product"></a>
@@ -323,7 +323,7 @@
              <a href="uploads/product/invitation/1.png" data-fancybox="invitation"><img src="uploads/product/invitation/1.png" alt="product"></a>
         </div>
         <div class="col">
-            <a href="uploads/product/invitation/2.png" data-fancybox="invitation"><img src="uploads/product/invitation/2.png" alt="product"></a>
+            <a href="uploads/product/invitation/4.png" data-fancybox="invitation"><img src="uploads/product/invitation/4.png" alt="product"></a>
         </div>
     </div>
     <div class="section db mt-3">
@@ -347,6 +347,31 @@
                 <li>
                     <div class="uk-panel">
                         <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/4.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/5.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/6.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/7.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/8.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/invitation/4.png" data-fancybox="invitation"><img class="w-100" src="/uploads/product/invitation/9.png" alt=""></a>
                     </div>
                 </li>
 
