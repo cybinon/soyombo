@@ -115,9 +115,9 @@
     $(".products").hide();
     $(".prointo").hide();
     $("#guidep").show();
-    $("#klishep").show();
+    $("#bookp").show();
     $(".content").hide();
-    $('#klishep'+' .content').show();
+
 
 
     $(".texter").hide();

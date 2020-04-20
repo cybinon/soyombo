@@ -106,9 +106,6 @@
         <div class="row" id="accordion">
             <!--book-->
             <div class="col-md-3 widget-list">
-                <button class="widget text-left w-100 mb-3 btn btn-warning" onclick="switcher(this.id)" id="guide">
-                    <i class="fas fa-info-circle"></i> Зөвлөмж
-                </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="book">
                     <i class="fa fa-book"></i> Ном
@@ -173,12 +170,16 @@
 
             <div class="col-md-9" style="">
                 {{view('data.product.all')}}
-
+                <div class="row mt-3 bg-dark rounded p-2">
+                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#guide"><i class="fas fa-info-circle"></i> Зөвлөмж</button></div>
+                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#papersize"><i class="fas fa-sticky-note"></i> Цаасны хэмжээ</button></div>
+                    <div class="col"><button type="button" class="w-100 btn btn-warning rounded" data-toggle="modal" data-target="#warning"><i class="fas fa-exclamation-circle"></i> Анхаарах зүйлс</button></div>
+                </div>
             </div>{{-- Col End --}}
         </div>{{-- Row end --}}
     </div>
 </div>
-
+{{view('data.guide')}}
 	<div id="technology" class="section lb">
         <div class="section-title text-center">
 				<h3>Технологи</h3>
@@ -337,87 +338,6 @@
         </div>{{-- Container end --}}
     </div>
 
-     <div id="partner" class="section lb">
-        <div class="section-title text-center">
-				<h3>Хамтрагч Байгууллага</h3>
-				<p></p>
-            </div><!-- end title -->
-
-        <div class="container">
-		<div class="row widget-list">
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray9.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray2.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray3.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray4.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray5.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray6.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray7.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray8.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray10.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray11.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray12.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray13.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray14.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray15.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray16.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray17.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray18.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray19.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray20.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray21.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray22.png" alt="partner">
-			</div>
-			<div class="col-md-2 col-3 mt-5 widget">
-				<img class="partner-img" src="uploads/partner/har-gray23.png" alt="partner">
-			</div>
-		</div>
-
-		</div>
-	</div>
     <div id="news" class="section db">
         <div class="section-title text-center">
 				<h3 class="text-light">Мэдээ, Мэдээлэл</h3>
@@ -427,44 +347,44 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/1.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/1.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/2.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/2.mp4"><img src="uploads/video/poster.png"></a>
 
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/3.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/3.mp4"><img src="uploads/video/poster.png"></a>
 
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/4.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/4.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/5.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/5.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/6.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/6.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/7.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/7.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a data-fancybox="news" href="uploads/video/news/8.mp4"><img src="uploads/video/poster.jpg"></a>
+                        <a data-fancybox="news" href="uploads/video/news/8.mp4"><img src="uploads/video/poster.png"></a>
                     </div>
                 </li>
 

@@ -1,2 +1,5 @@
 
-<p><span style=""><span style="color: rgb(98, 98, 98); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 252, 252); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">Алтлаг мөнгөлөг саатай бүрэлт хийлгэснээр бүтээгдэхүүн маань гоёмсог нэр хүндийн баталгаа болж өгнө.</span>&nbsp;<img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587202986.png" style="width: 603px;"><img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587203013.png" style="width: 604px;"></span></p>
+<p><span style="">
+    <span style="">
+        Алтлаг мөнгөлөг саатай бүрэлт хийлгэснээр бүтээгдэхүүн маань гоёмсог нэр хүндийн баталгаа болж өгнө.
+    </span>&nbsp;<img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587202986.png" style="width: 603px;"><img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587203013.png" style="width: 604px;"></span></p>
