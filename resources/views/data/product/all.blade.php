@@ -776,7 +776,7 @@
     <h1 class="uk-h2 text-center font-weight-bold">Хайрцаг, Сав, Багалаа, Боодол</h1>
     <div class="row">
         <div class="col">
-             <a href="uploads/product/packaging/1.png" data-fancybox="packaging"><img src="uploads/product/packaging/1.png" alt="product"></a>
+             <a href="uploads/product/packaging/1.png" data-fancybox="packaging"><img src="uploads/product/packaging/5.png" alt="product"></a>
         </div>
         <div class="col">
             <a href="uploads/product/packaging/2.png" data-fancybox="packaging"><img src="uploads/product/packaging/2.png" alt="product"></a>
@@ -787,20 +787,17 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <a href="uploads/product/packaging/1.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/1.png" alt=""></a>
-
+                        <a href="uploads/product/packaging/1.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/5.png" alt=""></a>
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
                         <a href="uploads/product/packaging/2.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/2.png" alt=""></a>
-
                     </div>
                 </li>
                 <li>
                     <div class="uk-panel">
                         <a href="uploads/product/packaging/3.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/3.png" alt=""></a>
-
                     </div>
                 </li>
                 <li>
@@ -810,7 +807,7 @@
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a href="uploads/product/packaging/5.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/4.png" alt=""></a>
+                        <a href="uploads/product/packaging/5.png" data-fancybox="packaging"><img class="w-100" src="/uploads/product/packaging/1.png" alt=""></a>
                     </div>
                 </li>
 

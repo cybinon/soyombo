@@ -273,10 +273,6 @@
              <div class="row" id="accordion">
                 <!--book-->
                 <div class="col-md-3 widget-list">
-                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
-                        5С UV Лак
-                    </button>
-
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="klishe">
                         Клише /Халуун дардас/
                     </button>
@@ -287,6 +283,10 @@
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="deboss">
                         Дебосс /Товгор дардас/
+                    </button>
+
+                    <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
+                        5С UV Лак
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="lazer">
@@ -301,34 +301,6 @@
                         PANOBOOK
                     </button>
 
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/1.mp4">
-                        Heidelderg CD 102
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
-                        Muller martini наалтын шугам
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/2.mp4">
-                        Muller martini үдээний шугам
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/3.mp4">
-                        Нeidelberg нугалаа
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
-                        Muller martini оёо
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/4.mp4">
-                        SD-28 гурван тал огтлоо
-                    </button>
-
-                    <button class="text-left w-100 mb-3 btn btn-primary" data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
-                        СТР Технологи
-                    </button>
-
                 </div>
 
                 <div class="col-md-9" style="">
@@ -336,6 +308,79 @@
                 </div>{{-- Col End --}}
             </div>{{-- Row end --}}
         </div>{{-- Container end --}}
+         <div id="news" class="section lb">
+        <div class="section-title text-center">
+				<h3 >Техник, Технологи</h3>
+				<p></p>
+            </div><!-- end title -->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
+                            <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="uk-panel">
+                            <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
+                        <img src="uploads/video/poster.jpg">
+                            </a>
+                        </div>
+                    </li>
+
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+
+    </div><!-- end section -->
+
     </div>
 
     <div id="news" class="section db">
