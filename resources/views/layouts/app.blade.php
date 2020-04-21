@@ -98,7 +98,10 @@
     <a href="https://www.facebook.com/Soyomboprinting/" target="_blank"><i class="fab fa-facebook"></i></a>
   </li>
   <li>
-    <a href="tel:+97699181421"><i class="fas fa-phone"></i> &nbsp;<span>99181421</span></a>
+    <a href="tel:+97699569646"><i class="fas fa-phone"></i> &nbsp;<span>99569646</span></a>
+  </li>
+  <li>
+    <a href="tel:+97695109646"><i class="fas fa-phone"></i> &nbsp;<span>95109646</span></a>
   </li>
   <li>
     <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i> &nbsp;<span>info@soyomboprinting.com</span></a>
@@ -118,7 +121,7 @@
 //Contact inputs
         $("#proprice").hide();
         $("#file").hide();
-        $(".sim-btn").hide();
+        $(".read").hide();
 
         $("#klishep").show();
         $("#bookp").show();

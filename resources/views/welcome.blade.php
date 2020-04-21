@@ -198,7 +198,7 @@
                             </span>
                         </p>
 
-                        <a href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
+                        <a href="#technolog" class="sim-btn read"><span>Цааш үзэх</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -224,7 +224,7 @@
                             </span>
                         </p>
 
-                        <a  href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
+                        <a  href="#technolog" class="sim-btn read"><span>Цааш үзэх</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 			</div><!-- end row -->
@@ -244,7 +244,7 @@
                         </span>
                 </p>
 
-                        <a  href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
+                        <a  href="#technolog" class="sim-btn read"><span>Цааш үзэх</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -270,7 +270,7 @@
                             </span>
                         </p>
 
-                        <a href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
+                        <a href="#technolog" class="sim-btn read"><span>Цааш үзэх</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -465,10 +465,10 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
 										<select name="infotype" id="infotype" class="form-control rounded" value="price">
-                                            <option value="other">Хамтын ажиллагаа, бусад мэдээлэл</option>
+                                            <option value="other">Хамтын ажиллагаа, бусад мэдээлэл илгээх</option>
                                             <option value="price">Үнийн мэдээлэл авах</option>
-                                            <option value="source">Эх бэлтгэлийн мэдээлэл</option>
-                                            <option value="hr">Хүний нөөцийн мэдээлэл</option>
+                                            <option value="source">Эх бэлтгэлийн мэдээлэл илгээх</option>
+                                            <option value="hr">Хүний нөөцийн мэдээлэл илгээх</option>
                                         </select>
 										<p class="help-block text-danger"></p>
                                     </div>

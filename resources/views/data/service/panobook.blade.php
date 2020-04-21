@@ -5,7 +5,7 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <a href="uploads/other/panobook/1.png" data-fancybox="panobook"><img class="w-100" src="/uploads/other/panobook/5.png" alt="Panobook"></a>
+                        <a href="uploads/other/panobook/1.png" data-fancybox="panobook"><img class="w-100" src="/uploads/other/panobook/2.png" alt="Panobook"></a>
                     </div>
                 </li>
                 <li>
