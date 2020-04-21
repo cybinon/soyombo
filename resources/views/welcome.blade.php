@@ -295,7 +295,7 @@
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="deboss">
-                        Дебосс /Товгор дардас/
+                        Дебосс /Хурай дардас/
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
