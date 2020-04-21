@@ -55,7 +55,7 @@
 @endif
 <body id="page-top" class="politics_version">
     <!-- LOADER -->
-    <div id="none preloader">
+    <div id="preloader">
         <div id="main-ld">
 			<div id="loader"></div>
 		</div>
@@ -112,17 +112,43 @@
 </ul>
 <script>
     $(document).ready(function(){
-    $(".products").hide();
-    $(".prointo").hide();
-    $("#klishep").show();
-    $("#bookp").show();
-    $(".content").hide();
-    $('#klishep .content').show();
 
+        $(".products").hide();
+        $(".prointo").hide();
 
+        $("#proprice").hide();
+        $("#file").hide();
+
+        $("#klishep").show();
+        $("#bookp").show();
+        $(".content").hide();
+        $('#klishep .content').show();
 
     $(".texter").hide();
 
+    $("#catalog").mouseleave(function(){
+        $(".products").hide();
+        $(".prointo").hide();
+        $("#klishep").show();
+        $("#bookp").show();
+        $(".content").hide();
+        $('#klishep .content').show();
+    });
+
+    $('#infotype').on('change', function(){
+        $("#proprice").hide();
+        $("#file").hide();
+
+        if($('#infotype option:selected').val() == 'price') {
+            $('#file').hide();
+            $('#proprice').fadeIn(300);
+        }
+
+        if($('#infotype option:selected').val() == 'source') {
+            $('#proprice').hide();
+            $('#file').fadeIn(300);
+        }
+    });
 
 });
 
@@ -131,7 +157,7 @@ function switcher(content) {
         $(".products").fadeOut("slow");
         $(content+' .content').fadeIn();
         $(content).delay(700).fadeIn("slow");
-}д
+}
 function switcherc(content) {
         content = "#"+content+"p";
         $(".prointo").fadeOut("slow");

@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
-    {{$details['sentMessage']}}
+    <br><strong>Холбогдох төрөл</strong>: {{$details['infotype']}}
+    <br><strong>Харилцагч нэр</strong>: {{$details['username']}}
+    <br><strong>Харилцагч утас</strong>: {{$details['phone']}}
+    <br><strong>Цахим хаяг</strong>: {{$details['email']}}
+    <br><strong>Бичвэр</strong>: {{$details['addition']}}
+    <br><strong>Төрөл</strong>: {{$details['proprice']}}
+    <br><strong>Эх</strong>: {{$details['file']}}
 </body>
 </html>

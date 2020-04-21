@@ -10950,6 +10950,18 @@ a.text-dark:focus {
   width: 100%;
 }
 
+@media (min-width: 100px) {
+  .draw {
+    display: none;
+  }
+}
+
+@media (min-width: 710px) {
+  .draw {
+    display: unset;
+  }
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -10968,5 +10980,9 @@ a.text-dark:focus {
 .show_hide:not([href]) {
   color: #fff;
   text-decoration: none;
+}
+
+.uk-overlay {
+  padding: 10px 10px;
 }
 

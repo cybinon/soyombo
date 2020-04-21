@@ -86,9 +86,15 @@
     width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 100px) {
+    .draw {
+        display: none;
+    }
 }
-@media (min-width: 768px) {
+@media (min-width: 710px) {
+    .draw {
+        display: unset;
+    }
 }
 @media (min-width: 992px) {
 }
@@ -119,4 +125,8 @@
 .show_hide:not([href]) {
     color: #fff;
     text-decoration: none;
+}
+
+.uk-overlay {
+    padding: 10px 10px;
 }

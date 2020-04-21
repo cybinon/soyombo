@@ -317,55 +317,51 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
-                        <img src="uploads/tech/1.png">
+                            <img class="w-100" src="uploads/tech/1.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel w-100"><h1 class="text-dark">Heidelderg CD 102</h1></div>
                         </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Heiadberg</h1></div>
                     </li>
 
                     <li>
-
-                            <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
-                            <img src="uploads/tech/2.png">
-                            </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>naaltaa</h1></div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
+                            <img class="w-100" src="uploads/tech/2.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini наалтын шугам</h1></div>
+                        </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
-                        <img src="uploads/tech/3.png">
+                            <img class="w-100" src="uploads/tech/3.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini үдээний шугам</h1></div>
                         </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Үдээ</h1></div>
                     </li>
 
                     <li>
-
-                            <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
-                            <img src="uploads/tech/4.png">
-                            </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Нугалаа</h1></div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
+                            <img class="w-100" src="uploads/tech/4.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Нeidelberg нугалаа</h1></div>
+                        </a>
                     </li>
 
                     <li>
-
-                            <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
-                            <img src="uploads/tech/5.png">
-                            </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Оёо</h1></div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
+                            <img class="w-100" src="uploads/tech/5.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini оёо</h1></div>
+                        </a>
                     </li>
 
                     <li>
-
-                            <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
-                            <img src="uploads/tech/6.png">
-                            </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Огтлоо</h1></div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
+                            <img class="w-100" src="uploads/tech/6.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">SD-28 гурван тал огтлоо</h1></div>
+                        </a>
                     </li>
 
                     <li>
-                            <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
-                            <img src="uploads/tech/7.png">
-                            </a>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom text-center uk-panel"><h1>Computer to plate</h1></div>
+                        <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
+                            <img class="w-100" src="uploads/tech/7.png">
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">CTP Технологи</h1></div>
+                        </a>
                     </li>
 
 
@@ -450,39 +446,44 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
-                        <div id="message"></div>
-                        <form action="/send" id="contactFormnone" name="sentMessage" novalidate="novalidate">
+                        <form action="/send" method="POST">
                             @csrf
 							<div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-										<select class="form-control text-center" id="message">
-                                            <option value="1">Захиалга өгөх</option>
-                                            <option value="2">Мэдээлэл авах / Харилцах</option>
+										<select name="infotype" id="infotype" class="form-control rounded" value="price">
+                                            <option value="other">Хамтын ажиллагаа, бусад мэдээлэл</option>
+                                            <option value="price">Үнийн мэдээлэл авах</option>
+                                            <option value="source">Эх бэлтгэлийн мэдээлэл</option>
+                                            <option value="hr">Хүний нөөцийн мэдээлэл</option>
                                         </select>
 										<p class="help-block text-danger"></p>
                                     </div>
                                 </div>
+
                                 <div class="col-md-12">
                                     <div class="form-group">
-										<select class="form-control text-center" id="message">
-                                            <option value="1">Ном хэвлүүлэх захиалга</option>
-                                            <option value="2">Өөр бусад</option>
+                                        <select name="proprice" id="proprice" class="form-control rounded">
+                                            <option value="1">Офсет хэвлэл</option>
+                                            <option value="2">Офсет хэвлэл</option>
+                                            <option value="3">Офсет хэвлэл</option>
+                                            <option value="4">Офсет хэвлэл</option>
+                                            <option value="5">Офсет хэвлэл</option>
                                         </select>
-										<p class="help-block text-danger"></p>
+                                        <input class="form-control" name="file" id="file" type="file" placeholder="file">
                                     </div>
                                 </div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input class="form-control" id="name" type="text" placeholder="Нэр" required="required" data-validation-required-message="Та нэр оруулна уу">
+										<input class="form-control" name="username" id="username" type="text" placeholder="Нэр" required="required" data-validation-required-message="Та нэр оруулна уу">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Таны цахим хаяг" required="required" data-validation-required-message="Цахим хаяг заавал оруулах хэрэгтэй.">
+										<input class="form-control" name="email" id="email" type="email" placeholder="Таны цахим хаяг" required="required" data-validation-required-message="Цахим хаяг заавал оруулах хэрэгтэй.">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Таны утас" required="required" data-validation-required-message="Утасны дугаар ашиглан таньд эргүүлж хариу өгнө">
+										<input class="form-control" name="phone" id="phone" type="tel" placeholder="Таны утас" required="required" data-validation-required-message="Утасны дугаар ашиглан таньд эргүүлж хариу өгнө">
 										<p class="help-block text-danger"></p>
                                     </div>
 
@@ -491,14 +492,14 @@
 
 
                                     <div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Нэмэлт мэдээлэл"></textarea>
+										<textarea class="form-control" name="addition" id="message" required placeholder="Нэмэлт мэдээлэл"></textarea>
 										<p class="help-block text-danger"></p>
                                     </div>
 								</div>
 								<div class="clearfix"></div>
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send Message</button>
+									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Илгээх</button>
 								</div>
 							</div>
 						</form>
@@ -530,30 +531,15 @@
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/parallaxie.js"></script>
 
-	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 
-	 <script>
+	<script>
      ScrollReveal({reset: true}).reveal('.widget', { scale: 0.9, interval: 100 });
-
-     $(document).ready(function() {
-
-        $('.collapse').on('shown.bs.collapse', function () {
-            $(this).parent().addClass('active');
-        });
-
-        $('.collapse').on('hidden.bs.collapse', function () {
-            $(this).parent().removeClass('active');
-        });
-
-    });
     </script>
 @endsection
