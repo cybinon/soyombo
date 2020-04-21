@@ -53,7 +53,9 @@
 	}
 </style>
 @endif
-<body id="page-top" class="politics_version">
+<body id="page-top" class="politics_version" unselectable="on"
+ onselectstart="return false;"
+ onmousedown="return false;">
     <!-- LOADER -->
     <div id="preloader">
         <div id="main-ld">
