@@ -23,7 +23,7 @@ class MainController extends Controller
         ]);
 
         if(isset($request->file)){
-            $fileName = time().'.'.$request->file->getClientOriginalName();
+            $fileName = time().'.'.$request->file->getClientOriginalExtension();
             $request->file->move(public_path('/shared'), $fileName);
 
             $details['file'] = url('/shared/'.$fileName);
