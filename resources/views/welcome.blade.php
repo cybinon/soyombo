@@ -483,7 +483,7 @@
                                             <option value="4">Офсет хэвлэл</option>
                                             <option value="5">Офсет хэвлэл</option>
                                         </select>
-                                        <input class="form-control" name="file" id="file" type="file" placeholder="file">
+                                        <input class="form-control" name="file" id="file" type="file" placeholder="file" multiple>
                                     </div>
                                 </div>
 								<div class="col-md-6">
