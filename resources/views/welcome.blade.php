@@ -476,12 +476,20 @@
 
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <select name="proprice" id="proprice" class="form-control rounded">
-                                            <option value="1">Офсет хэвлэл</option>
-                                            <option value="2">Офсет хэвлэл</option>
-                                            <option value="3">Офсет хэвлэл</option>
-                                            <option value="4">Офсет хэвлэл</option>
-                                            <option value="5">Офсет хэвлэл</option>
+                                        <select name="proprice" id="proprice" class="form-control rounded" value="1">
+                                            <option value="Ном">Ном, гарын авлага</option>
+                                            <option value="Сэтгүүл">Сэтгүүл</option>
+                                            <option value="Сонин">Сонин</option>
+                                            <option value="Танилцуулга">Танилцуулга, Плакат</option>
+                                            <option value="Өргөмжлөл">Урилга, Мэндчилгээ</option>
+                                            <option value="Календарь">Календарь, цаг тооны бичиг</option>
+                                            <option value="Нууцлал">Үнэт цаас, Нууцлал</option>
+                                            <option value="Бланк">Бланк</option>
+                                            <option value="Билл">Билл</option>
+                                            <option value="Нэрийн">Нэрийн хуудас</option>
+                                            <option value="Шошго">Шошго</option>
+                                            <option value="Тор">Цаасан уут, тор</option>
+                                            <option value="Хайрцаг">Хайрцаг</option>
                                         </select>
                                         <input class="form-control" name="file" id="file" type="file" placeholder="file" multiple>
                                     </div>
