@@ -720,7 +720,7 @@
     <h1 class="uk-h2 text-center font-weight-bold">Цаасан уут, Тор</h1>
     <div class="row">
         <div class="col">
-             <a href="uploads/product/paperbag/1.png" data-fancybox="paperbag"><img src="uploads/product/paperbag/1.png" alt="product"></a>
+             <a href="uploads/product/paperbag/5.png" data-fancybox="paperbag"><img src="uploads/product/paperbag/5.png" alt="product"></a>
         </div>
         <div class="col">
             <a href="uploads/product/paperbag/2.png" data-fancybox="paperbag"><img src="uploads/product/paperbag/2.png" alt="product"></a>
@@ -731,7 +731,7 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
                 <li>
                     <div class="uk-panel">
-                        <a href="uploads/product/paperbag/1.png" data-fancybox="paperbag"><img class="w-100" src="/uploads/product/paperbag/1.png" alt=""></a>
+                        <a href="uploads/product/paperbag/5.png" data-fancybox="paperbag"><img class="w-100" src="/uploads/product/paperbag/5.png" alt=""></a>
 
                     </div>
                 </li>
@@ -754,7 +754,7 @@
                 </li>
                 <li>
                     <div class="uk-panel">
-                        <a href="uploads/product/paperbag/5.png" data-fancybox="paperbag"><img class="w-100" src="/uploads/product/paperbag/4.png" alt=""></a>
+                        <a href="uploads/product/paperbag/1.png" data-fancybox="paperbag"><img class="w-100" src="/uploads/product/paperbag/1.png" alt=""></a>
                     </div>
                 </li>
 
