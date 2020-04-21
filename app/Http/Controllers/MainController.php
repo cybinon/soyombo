@@ -27,6 +27,8 @@ class MainController extends Controller
             $request->file->move(public_path('/shared'), $fileName);
 
             $details['file'] = url('/shared/'.$fileName);
+        }else{
+            $details['file'] = "Файл хавчуулагдаагүй";
         }
         if($details['infotype'] == 'price') \Mail::to('sales@soyomboprinting.com')->send(new SendMail($details));
         if($details['infotype'] == 'hr') \Mail::to('hr@soyomboprinting.com')->send(new SendMail($details));

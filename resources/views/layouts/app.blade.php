@@ -107,7 +107,7 @@
     <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i> &nbsp;<span>info@soyomboprinting.com</span></a>
   </li>
   <li>
-    <a href="https://forms.gle/HsV2UudpRsrWCxJE8" target="_blank"><i class="fas fa-user-edit"></i> &nbsp;<span>Сэтгэл ханамжийн судалгаа</span></a>
+    <a data-fancybox data-type="iframe" data-src="https://forms.gle/HsV2UudpRsrWCxJE8" href="javascript:;"><i class="fas fa-user-edit"></i> &nbsp;<span>Сэтгэл ханамжийн судалгаа</span></a>
   </li>
   <li>
     <a href="https://www.biznetwork.mn/company/Soyombo-printing" target="_blank"><i class="fas fa-briefcase"></i>  &nbsp;<span>Хүний нөөц</span></a>

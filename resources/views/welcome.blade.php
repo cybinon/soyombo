@@ -331,49 +331,49 @@
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
                             <img class="w-100" src="uploads/tech/1.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel w-100"><h1 class="text-dark">Heidelderg CD 102</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel w-100"><h1 class="text-dark">Ном хэрхэн хэвлэгддэг вэ?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
                             <img class="w-100" src="uploads/tech/2.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini наалтын шугам</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Ном наалтаар бэхлэх тухай</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
                             <img class="w-100" src="uploads/tech/3.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini үдээний шугам</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Номыг үдээгээр хэрхэн бэхэлдэг вэ?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
                             <img class="w-100" src="uploads/tech/4.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Нeidelberg нугалаа</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Нугалааг хэрхэн хийдэг вэ?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
                             <img class="w-100" src="uploads/tech/5.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Muller martini оёо</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Номыг хэрхэн оёж бэхэлдэг вэ?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
                             <img class="w-100" src="uploads/tech/6.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">SD-28 гурван тал огтлоо</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Гурван тал огтлоо гэж юу вэ?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
                             <img class="w-100" src="uploads/tech/7.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">CTP Технологи</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Сomputer Тo Рlate технологи гэж юу вэ?</h1></div>
                         </a>
                     </li>
 
