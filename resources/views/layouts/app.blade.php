@@ -115,9 +115,10 @@
 
         $(".products").hide();
         $(".prointo").hide();
-
+//Contact inputs
         $("#proprice").hide();
         $("#file").hide();
+        $("#technolog").hide();
 
         $("#klishep").show();
         $("#bookp").show();
@@ -127,12 +128,7 @@
     $(".texter").hide();
 
     $("#catalog").mouseleave(function(){
-        $(".products").hide();
-        $(".prointo").hide();
-        $("#klishep").show();
-        $("#bookp").show();
-        $(".content").hide();
-        $('#klishep .content').show();
+        $('.content').fadeOut(150);
     });
 
     $('#infotype').on('change', function(){

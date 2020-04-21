@@ -198,7 +198,7 @@
                             </span>
                         </p>
 
-                        <a  href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
+                        <a href="#technolog" class="sim-btn hvr-bounce-to-top"><span>Цааш үзэх</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -459,7 +459,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
-                        <form action="/send" method="POST">
+                        <form action="/send" method="POST" enctype="multipart/form-data">
                             @csrf
 							<div class="row">
                                 <div class="col-md-12">

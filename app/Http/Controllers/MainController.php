@@ -23,10 +23,10 @@ class MainController extends Controller
         ]);
 
         if(isset($request->file)){
-            $fileName = time().'.'.$request->file->getClientOriginalExtension();
+            $fileName = time().'.'.$request->file->getClientOriginalName();
             $request->file->move(public_path('/shared'), $fileName);
 
-            $details['file'] = url('/shared'.$fileName);
+            $details['file'] = url('/shared/'.$fileName);
         }
         if($details['infotype'] == 'price') \Mail::to('sales@soyomboprinting.com')->send(new SendMail($details));
         if($details['infotype'] == 'hr') \Mail::to('hr@soyomboprinting.com')->send(new SendMail($details));
