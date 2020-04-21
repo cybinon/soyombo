@@ -112,6 +112,9 @@
   <li>
     <a href="https://www.biznetwork.mn/company/Soyombo-printing" target="_blank"><i class="fas fa-briefcase"></i>  &nbsp;<span>Хүний нөөц</span></a>
   </li>
+  <li>
+    <a data-fancybox data-type="iframe" data-src="http://43.231.115.12:8286/" href="javascript:;"><i class="fas fa-edit"></i>  &nbsp;<span>Ажил горилогчийн анкет</span></a>
+  </li>
 </ul>
 <script>
     $(document).ready(function(){

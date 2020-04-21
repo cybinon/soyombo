@@ -453,7 +453,11 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Шуудан үлдээх</h3>
-                <p>Бид ажлын 24 цагийн дотор хариу илгээх болно</p>
+                <p>
+                    <a href="tel:+97699569646"><i class="fas fa-phone"></i> &nbsp;<span>99569646</span></a>
+                    <a href="tel:+97695109646"><i class="fas fa-phone"></i> &nbsp;<span>95109646</span></a>
+                    <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i> &nbsp;<span>info@soyomboprinting.com</span></a>
+                </p>
             </div><!-- end title -->
 
             <div class="row">
