@@ -452,7 +452,7 @@
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Шуудан үлдээх <span class="alert alert-warning">Засвартай</span></h3>
+                <h3>Шуудан үлдээх</h3>
                 <p>Бид ажлын 24 цагийн дотор хариу илгээх болно</p>
             </div><!-- end title -->
 

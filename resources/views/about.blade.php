@@ -13,7 +13,7 @@
             <div class="col-md-6 mt-5 widget">
                 <div class="right-box-pro wow fadeIn">
                     {{-- <img style="max-height:600px" src="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" alt="" class="img-fluid img-rounded"> --}}
-                    <video class="w-100" src="/uploads/video/intro.mp4" controls></video>
+                    <video class="w-100" poster="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" src="/uploads/video/intro.mp4" controls></video>
                 </div><!-- end media -->
             </div><!-- end col -->
         </div><!-- end row -->

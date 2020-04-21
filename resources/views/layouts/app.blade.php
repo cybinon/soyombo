@@ -118,7 +118,7 @@
 //Contact inputs
         $("#proprice").hide();
         $("#file").hide();
-        $("#technolog").hide();
+        $(".sim-btn").hide();
 
         $("#klishep").show();
         $("#bookp").show();
@@ -128,7 +128,8 @@
     $(".texter").hide();
 
     $("#catalog").mouseleave(function(){
-        $('.content').fadeOut(150);
+        $('#catalog .content').fadeOut(150);
+
     });
 
     $('#infotype').on('change', function(){
