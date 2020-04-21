@@ -41,7 +41,7 @@
 </div>{{-- Text light End --}}
 
 <div class="text-light prointo" id="debossp">
-    <h1 class="uk-h2 font-weight-bold text-light">ДЕБОСС /Товгор дардас/</h1>
+    <h1 class="uk-h2 font-weight-bold text-light">ДЕБОСС /Хуурай дардас/</h1>
     <div class="row">
         <div class="col">
 
