@@ -295,7 +295,7 @@
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="deboss">
-                        Дебосс /Хурай дардас/
+                        Дебосс /Хуурай дардас/
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
@@ -449,122 +449,7 @@
 
     </div><!-- end section -->
 
-    <div id="contact" class="section db">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Шуудан үлдээх</h3>
-                <p>
-                    <a href="tel:+97699569646"><i class="fas fa-phone"></i> &nbsp;<span>99569646</span></a>
-                    <a href="tel:+97695109646"><i class="fas fa-phone"></i> &nbsp;<span>95109646</span></a>
-                    <a href="mailto:info@soyomboprinting.com"><i class="fas fa-envelope"></i> &nbsp;<span>info@soyomboprinting.com</span></a>
-                </p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact_form">
-                        <form action="/send" method="POST" enctype="multipart/form-data">
-                            @csrf
-							<div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-										<select name="infotype" id="infotype" class="form-control rounded" value="price">
-                                            <option value="other">Хамтын ажиллагаа, бусад мэдээлэл илгээх</option>
-                                            <option value="price">Үнийн мэдээлэл авах</option>
-                                            <option value="source">Эх бэлтгэлийн мэдээлэл илгээх</option>
-                                            <option value="hr">Хүний нөөцийн мэдээлэл илгээх</option>
-                                        </select>
-										<p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <select name="proprice" id="proprice" class="form-control rounded" value="1">
-                                            <option value="Ном">Ном, гарын авлага</option>
-                                            <option value="Сэтгүүл">Сэтгүүл</option>
-                                            <option value="Сонин">Сонин</option>
-                                            <option value="Танилцуулга">Танилцуулга, Плакат</option>
-                                            <option value="Өргөмжлөл">Урилга, Мэндчилгээ</option>
-                                            <option value="Календарь">Календарь, цаг тооны бичиг</option>
-                                            <option value="Нууцлал">Үнэт цаас, Нууцлал</option>
-                                            <option value="Бланк">Бланк</option>
-                                            <option value="Билл">Билл</option>
-                                            <option value="Нэрийн">Нэрийн хуудас</option>
-                                            <option value="Шошго">Шошго</option>
-                                            <option value="Тор">Цаасан уут, тор</option>
-                                            <option value="Хайрцаг">Хайрцаг</option>
-                                        </select>
-                                        <input class="form-control" name="file" id="file" type="file" placeholder="file" multiple>
-                                    </div>
-                                </div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input class="form-control" name="username" id="username" type="text" placeholder="Нэр" required="required" data-validation-required-message="Та нэр оруулна уу">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" name="email" id="email" type="email" placeholder="Таны цахим хаяг" required="required" data-validation-required-message="Цахим хаяг заавал оруулах хэрэгтэй.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" name="phone" id="phone" type="tel" placeholder="Таны утас" required="required" data-validation-required-message="Утасны дугаар ашиглан таньд эргүүлж хариу өгнө">
-										<p class="help-block text-danger"></p>
-                                    </div>
-
-								</div>
-								<div class="col-md-6">
 
 
-                                    <div class="form-group">
-										<textarea class="form-control" name="addition" id="message" required placeholder="Нэмэлт мэдээлэл"></textarea>
-										<p class="help-block text-danger"></p>
-                                    </div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-lg-12 text-center">
-									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Илгээх</button>
-								</div>
-							</div>
-						</form>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-				<a href="#"></a>
-                <div class="footer-center">
-                    <p class="footer-links">
-
-                    </p>
-                    <p class="footer-company-name">Соёмбо Принтинг ХХК. &copy; 2020 </p>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
-
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-	<!-- Camera Slider -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/parallaxie.js"></script>
-
-
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-
-	<script>
-     ScrollReveal({reset: true}).reveal('.widget', { scale: 0.9, interval: 100 });
-    </script>
 @endsection
