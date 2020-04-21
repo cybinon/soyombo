@@ -142,7 +142,7 @@
                                             <option value="Тор">Цаасан уут, тор</option>
                                             <option value="Хайрцаг">Хайрцаг</option>
                                         </select>
-                                        <input class="form-control" name="file" id="file" type="file" placeholder="file" multiple>
+                                        <input class="form-control" name="file[]" id="file" type="file" placeholder="file" multiple>
                                     </div>
                                 </div>
 								<div class="col-md-6">

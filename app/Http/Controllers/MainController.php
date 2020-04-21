@@ -23,10 +23,14 @@ class MainController extends Controller
         ]);
 
         if(isset($request->file)){
-            $fileName = time().'.'.$request->file->getClientOriginalExtension();
-            $request->file->move(public_path('/shared'), $fileName);
+            $i = 0;
+            foreach($request->file('file') as $file){
+                $fileName = time().'.'.$file->getClientOriginalExtension();
+                $file->move(public_path('/shared'), $fileName);
 
-            $details['file'] = url('/shared/'.$fileName);
+                $details['file'][$i] = url('/shared/'.$fileName);
+                $i++;
+            }
         }else{
             $details['file'] = "Файл хавчуулагдаагүй";
         }
@@ -35,7 +39,7 @@ class MainController extends Controller
         if($details['infotype'] == 'source') \Mail::to('design@soyomboprinting.com')->send(new SendMail($details));
         if($details['infotype'] == 'other') \Mail::to('info@soyomboprinting.com')->send(new SendMail($details));
 
-        \Mail::to('nikorunikk@gmail.com')->send(new SendMail($details));
+        // \Mail::to('nikorunikk@gmail.com')->send(new SendMail($details));
 
         return redirect('/?success');
     }else

@@ -11,6 +11,9 @@
     <br><strong>Цахим хаяг</strong>: {{$details['email']}}
     <br><strong>Бичвэр</strong>: {{$details['addition']}}
     <br><strong>Төрөл</strong>: {{$details['proprice']}}
-    <br><strong>Эх</strong>: {{$details['file']}}
+    <br><strong>Эх</strong>:
+    @foreach ($details['file'] as $item)
+        {{$item}}<br>
+    @endforeach
 </body>
 </html>
