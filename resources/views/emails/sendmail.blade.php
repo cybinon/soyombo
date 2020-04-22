@@ -12,6 +12,7 @@
     <br><strong>Бичвэр</strong>: {{$details['addition']}}
     <br><strong>Төрөл</strong>: {{$details['proprice']}}
     <br><strong>Эх</strong>:
+
     @foreach ($details['file'] as $item)
         {{$item}}<br>
     @endforeach

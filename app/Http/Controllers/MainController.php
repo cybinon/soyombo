@@ -32,7 +32,7 @@ class MainController extends Controller
                 $i++;
             }
         }else{
-            $details['file'] = "Файл хавчуулагдаагүй";
+            $details['file'][0] = "Файл хавчуулагдаагүй";
         }
         if($details['infotype'] == 'price') \Mail::to('sales@soyomboprinting.com')->send(new SendMail($details));
         if($details['infotype'] == 'hr') \Mail::to('hr@soyomboprinting.com')->send(new SendMail($details));
