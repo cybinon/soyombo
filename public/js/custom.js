@@ -90,6 +90,39 @@
 
     // LOADER
     $(window).ready(function() {
+        $(".products").hide();
+        $(".prointo").hide();
+        //Contact inputs
+        $("#proprice").hide();
+        $("#file").hide();
+        $(".read").hide();
+
+        $("#klishep").show();
+        $("#bookp").show();
+        $(".content").hide();
+        $("#klishep .content").show();
+
+        $(".texter").hide();
+
+        $("#catalog").mouseleave(function() {
+            $("#catalog .content").fadeOut(150);
+        });
+
+        $("#infotype").on("change", function() {
+            $("#proprice").hide();
+            $("#file").hide();
+
+            if ($("#infotype option:selected").val() == "price") {
+                $("#file").hide();
+                $("#proprice").fadeIn(300);
+            }
+
+            if ($("#infotype option:selected").val() == "source") {
+                $("#proprice").hide();
+                $("#file").fadeIn(300);
+            }
+        });
+
         $("#preloader")
             .delay(200)
             .on(500)
@@ -181,3 +214,20 @@
         });
     });
 })(jQuery);
+
+function switcher(content) {
+    content = "#" + content + "p";
+    $(".products").fadeOut("slow");
+    $(content + " .content").fadeIn();
+    $(content)
+        .delay(700)
+        .fadeIn("slow");
+}
+function switcherc(content) {
+    content = "#" + content + "p";
+    $(".prointo").fadeOut("slow");
+    $(content + " .content").fadeIn();
+    $(content)
+        .delay(700)
+        .fadeIn("slow");
+}

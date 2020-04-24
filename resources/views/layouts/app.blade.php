@@ -90,9 +90,11 @@
 
     @endif
 
+
         <div unselectable="on"
  onselectstart="return false;"
  onmousedown="return false;">
+
         @yield('content')
         </div>
 
@@ -196,6 +198,7 @@
         </div><!-- end container -->
     </div><!-- end copyrights -->
 
+
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
@@ -220,7 +223,7 @@
   <li>
     <a href="https://www.facebook.com/Soyomboprinting/" target="_blank"><i class="fab fa-facebook"></i></a>
   </li>
-  <li>
+  <li class="previous">
     <a href="tel:+97699569646"><i class="fas fa-phone"></i> &nbsp;<span>99569646</span></a>
   </li>
   <li>
@@ -239,60 +242,6 @@
     <a href="http://43.231.115.12:8286/" target="_blank"><i class="fas fa-edit"></i>  &nbsp;<span>Ажил горилогчийн анкет</span></a>
   </li>
 </ul>
-<script>
-    $(document).ready(function(){
-
-        $(".products").hide();
-        $(".prointo").hide();
-//Contact inputs
-        $("#proprice").hide();
-        $("#file").hide();
-        $(".read").hide();
-
-        $("#klishep").show();
-        $("#bookp").show();
-        $(".content").hide();
-        $('#klishep .content').show();
-
-    $(".texter").hide();
-
-    $("#catalog").mouseleave(function(){
-        $('#catalog .content').fadeOut(150);
-
-    });
-
-    $('#infotype').on('change', function(){
-        $("#proprice").hide();
-        $("#file").hide();
-
-        if($('#infotype option:selected').val() == 'price') {
-            $('#file').hide();
-            $('#proprice').fadeIn(300);
-        }
-
-        if($('#infotype option:selected').val() == 'source') {
-            $('#proprice').hide();
-            $('#file').fadeIn(300);
-        }
-    });
-
-});
-
-function switcher(content) {
-        content = "#"+content+"p";
-        $(".products").fadeOut("slow");
-        $(content+' .content').fadeIn();
-        $(content).delay(700).fadeIn("slow");
-}
-function switcherc(content) {
-        content = "#"+content+"p";
-        $(".prointo").fadeOut("slow");
-        $(content+' .content').fadeIn();
-        $(content).delay(700).fadeIn("slow");
-}
-
-
-</script>
 
 </body>
 </html>

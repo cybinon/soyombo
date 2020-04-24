@@ -46,8 +46,9 @@
 .ct-socials li {
     padding: 0px 0;
 }
+
 .ct-socials li a {
-    background: #3f4653;
+    background: #6b32ff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -129,4 +130,14 @@
 
 .uk-overlay {
     padding: 10px 10px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #6b32ff;
+    border-color: #6b32ff;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #fda152;
+    border-color: #6b32ff;
 }

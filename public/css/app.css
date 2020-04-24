@@ -10917,7 +10917,7 @@ a.text-dark:focus {
 }
 
 .ct-socials li a {
-  background: #3f4653;
+  background: #6b32ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10984,5 +10984,17 @@ a.text-dark:focus {
 
 .uk-overlay {
   padding: 10px 10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6b32ff;
+  border-color: #6b32ff;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #fda152;
+  border-color: #6b32ff;
 }
 
