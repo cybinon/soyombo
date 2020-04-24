@@ -98,7 +98,7 @@
 </div>{{-- Text Dark End --}}
 
 <div class="text-dark products" id="diaryp">
-    <h1 class="uk-h2 text-center font-weight-bold">Сонин</h1>
+    <h1 class="uk-h2 text-center font-weight-bold">Тэмдэглэлийн дэвтэр</h1>
 
     <div class="row">
         <div class="col">
