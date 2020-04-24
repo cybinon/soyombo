@@ -89,11 +89,13 @@
     $(".parallaxie").parallaxie();
 
     // LOADER
-    $(window).load(function() {
+    $(window).ready(function() {
         $("#preloader")
+            .delay(200)
             .on(500)
-            .fadeOut();
+            .fadeOut("slow");
         $(".preloader")
+            .delay(200)
             .on(600)
             .fadeOut("slow");
     });

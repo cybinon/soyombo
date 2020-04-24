@@ -129,6 +129,7 @@
                                     <div class="form-group">
                                         <select name="proprice" id="proprice" class="form-control rounded" value="1">
                                             <option value="Ном">Ном, гарын авлага</option>
+                                            <option value="Тэмдэглэл">Тэмдэглэлийн дэвтэр</option>
                                             <option value="Сэтгүүл">Сэтгүүл</option>
                                             <option value="Сонин">Сонин</option>
                                             <option value="Танилцуулга">Танилцуулга, Плакат</option>

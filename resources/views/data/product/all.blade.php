@@ -97,6 +97,57 @@
     </div>
 </div>{{-- Text Dark End --}}
 
+<div class="text-dark products" id="diaryp">
+    <h1 class="uk-h2 text-center font-weight-bold">Сонин</h1>
+
+    <div class="row">
+        <div class="col">
+             <a href="uploads/product/diary/1.png" data-fancybox="diary"><img src="uploads/product/diary/1.png" alt="product"></a>
+        </div>
+        <div class="col">
+            <a href="uploads/product/diary/2.png" data-fancybox="diary"><img src="uploads/product/diary/2.png" alt="product"></a>
+        </div>
+    </div>
+    <div class="section db mt-3">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/diary/1.png" data-fancybox="diary"><img class="w-100" src="/uploads/product/diary/1.png" alt=""></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/diary/2.png" data-fancybox="diary"><img class="w-100" src="/uploads/product/diary/2.png" alt=""></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/diary/3.png" data-fancybox="diary"><img class="w-100" src="/uploads/product/diary/3.png" alt=""></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="/uploads/product/diary/4.png" data-fancybox="diary"><img class="w-100" src="/uploads/product/diary/4.png" alt=""></a>
+
+                    </div>
+                </li>
+
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+    </div>{{-- Section End --}}
+    <div class="content">
+    {{view('data.product.diary')}}
+    </div>{{-- Content end --}}
+</div>{{-- Text Dark End --}}
+
 {{-- Сэтгүүл """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="magazinep">
     <h1 class="uk-h2 text-center font-weight-bold">Сэтгүүл</h1>

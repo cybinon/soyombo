@@ -111,6 +111,10 @@
                     <i class="fa fa-book"></i> Ном
                 </button>
 
+                <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="diary">
+                    <i class="fa fa-book"></i> Тэмдэглэлийн дэвтэр
+                </button>
+
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="magazine">
                     <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
                 </button>
