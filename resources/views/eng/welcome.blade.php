@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('eng.layouts.app')
 
 @section('navbar')
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
@@ -13,30 +13,30 @@
           <ul class="navbar-nav text-uppercase ml-auto">
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#particle-slider">Эхлэл</a>
+              <a class="nav-link js-scroll-trigger" href="#particle-slider">Home</a>
             </li>
 
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#20year">Бидний тухай</a>
+              <a class="nav-link js-scroll-trigger" href="#20year">About us</a>
             </li>
 
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#catalog">Бүтээгдэхүүний төрөл</a>
+              <a class="nav-link js-scroll-trigger" href="#catalog">Product category</a>
             </li>
 
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#technology">Технологи</a>
+              <a class="nav-link js-scroll-trigger" href="#technology">Technology</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#news">Мэдээ мэдээлэл</a>
+              <a class="nav-link js-scroll-trigger" href="#news">News</a>
             </li>
 
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Холбоо Барих</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item active bg-primary border border-primary rounded-circle">
-              <a class="nav-link text-white" href="/eng">ENG</a>
+              <a class="nav-link text-white" href="/">MNG</a>
             </li>
           </ul>
         </div>
@@ -47,7 +47,7 @@
 @section('content')
 
 {{view('logo')}}
-{{view('about')}}
+{{view('eng.about')}}
 
 <div id="services" class="section db" >
 	<div class="container-fluid">
@@ -62,36 +62,36 @@
 
 							<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209384835940362/21.png" alt="1">
 
-						<h2>Захиалга хүлээн авах</h2>
-						<p>Захиалах бүтээгдэхүүний нэр төрөл, хэлбэр хэмжээ, техник үзүүлэлтийг захиалгын менежерт мэдэгдэж урьдчилсан үнийн санал, бүтээгдэхүүн бэлэн болох тойм хугацааг гаргуулна.</p>
+						<h2>Receiving an order</h2>
+						<p>Letting the order manager know about an ordering product’s name category, size, shape, machinery rates, and figuring out a tentative offer and a length of time to make a product ready.</p>
 					</div>
 				</div><!-- end col -->
 				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209456965386280/22.png" alt="1">
-						<h2>Эх бэлтгэл, дизайн</h2>
-						<p>Бүтээгдэхүүний эх загвар, дизайныг хийлгэж, 1 удаа уншилт хэвлүүлэн авч засварлан, гарын үсэг зурж баталгаажуулсны дараа захиалга өгч үйлдвэрлэлд шилжинэ.<br>&nbsp;</p>
+						<h2>Design & Origination</h2>
+						<p>Getting done a make-up page and design of a product, print out and read for one time to make some changes. After signing on a confirmation paper of a draft, order will be confirmed and manufacturing part will start.<br>&nbsp;</p>
 					</div>
 				</div><!-- end col -->
 				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209580818989086/23.png" alt="1">
-						<h2>Хэвлэх</h2>
-						<p>Эх нь эцсийн байдлаар батлагдан дараагийн дамжлагад шилжин, хавтан боловсруулах, хэвлэх цехүүдээр технологийн дагуу хэвлэгдэн гарна. Манай үйлдвэр 5 өнгөөр шууд хэвлэх давуу талтай.</p>
+						<h2>Printing</h2>
+						<p>A make-up page will be confirmed as a final version, moved to the next stage, and gone through a board-producing and printing departments as how the printing technology works. Our factory’s advantage is to print in 5 different colors directly.</p>
 					</div>
 				</div><!-- end col -->
 				<div class="col-lg-2 col-md-6 widget" >
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209874613075968/24.png" alt="1">
-						<h2>Хэвлэсний дараах ажиллагаа</h2>
-						<p>Хэвлэх цехээс гарсан хэвлэмэл хуудсуудыг автомат нугалаа, холио, үдээ, оёо болон наалт, чамин урлал зэрэг цехүүдээр дамжин эцсийн бүтээгдэхүүн болно.</p>
+						<h2>Process after printing</h2>
+						<p>Printed pages sent from a printing department goes through automatic folding, mixing, lacing, gluing, art & styling departments to build a final product.</p>
 					</div>
 				</div><!-- end col -->
 				<div class="col-lg-2 col-md-6 widget">
 					<div class="services-inner-box">
 						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699210063558213642/25.png" alt="1">
-						<h2>Бэлэн бүтээгдэхүүн хүлээлгэн өгөх</h2>
-						<p>Бэлэн болсон бүтээгдэхүүний чанарыг шалгасны дараа пресслэх, хайрцаглах, пакетлах зэрэг баглаа боодлын аль тохиромжтойг сонгон савлаж, захиалагчийн гарт хүргэнэ.</p>
+						<h2>Handing final product</h2>
+						<p>After checking a quality of a final product, we choose the most suitable one among pressing, boxing, packaging methods, and hand to a consumer.</p>
 					</div>
 				</div><!-- end col -->
 		</div>
@@ -102,7 +102,7 @@
 <div id="catalog" class="section wb">
     <div class="container">
         <div class="section-title text-center">
-            <h3>Бүтээгдэхүүний төрөл</h3>
+            <h3>Product Category</h3>
             <p></p>
         </div><!-- end title -->
 
@@ -111,7 +111,7 @@
             <div class="col-md-3 widget-list">
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="book">
-                    <i class="fa fa-book"></i> Ном
+                    <i class="fa fa-book"></i> Book
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="diary">
@@ -119,68 +119,68 @@
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="magazine">
-                    <i  class="fab fa-affiliatetheme"></i> Сэтгүүл
+                    <i  class="fab fa-affiliatetheme"></i> Magazine
                 </button>
 
                 <button  class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="newspaper">
-                    <i  class="far fa-newspaper"></i>  Сонин
+                    <i  class="far fa-newspaper"></i>  Newspaper
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="poster">
-                    <i  class="fa fa-sticky-note"></i> Танилцуулга, Плакат
+                    <i  class="fa fa-sticky-note"></i> Report, Poster
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="certificate">
-                    <i  class="fa fa-certificate"></i> Өргөмжлөл, Батламж
+                    <i  class="fa fa-certificate"></i> Certificate of verification
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="invitation">
-                    <i  class="fas fa-paper-plane"></i> Урилга, Мэндчилгээ
+                    <i  class="fas fa-paper-plane"></i> Greetings
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="calendar">
-                    <i  class="fa fa-calendar"></i> Календарь, Цаг тооны бичиг
+                    <i  class="fa fa-calendar"></i> Calendars
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="security">
-                    <i  class="fas fa-money-check-alt"></i> Үнэт цаас, Нууцлал
+                    <i  class="fas fa-money-check-alt"></i> Bonds & Securities
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="blank">
-                    <i  class="fas fa-chalkboard"></i> Бланк
+                    <i  class="fas fa-chalkboard"></i> Letterhead
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="bill">
-                    <i  class="fas fa-file-invoice-dollar"></i> Билл
+                    <i  class="fas fa-file-invoice-dollar"></i> Bill
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="envelope">
-                    <i  class="fa fa-envelope"></i> Дугтуй, Карматай хавтас
+                    <i  class="fa fa-envelope"></i> Envelope & Cover with pocket
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="bussiness">
-                    <i  class="fa fa-credit-card"></i> Нэрийн хуудас
+                    <i  class="fa fa-credit-card"></i> Bussiness card
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="label">
-                    <i  class="fa fa-mail-bulk"></i> Шошго
+                    <i  class="fa fa-mail-bulk"></i> Tags
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="paperbag">
-                    <i  class="fas fa-shopping-bag"></i> Цаасан уут, Тор
+                    <i  class="fas fa-shopping-bag"></i> Paper packing & bags
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="packaging">
-                    <i  class="fa fa-gift"></i> Хайрцаг, Сав, Багалаа, Боодол
+                    <i  class="fa fa-gift"></i> Box & packaging
                 </button>
             </div>
 
             <div class="col-md-9" style="">
                 {{view('data.product.all')}}
                 <div class="row mt-3 bg-dark rounded p-2">
-                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#guide"><i class="fas fa-info-circle"></i> Зөвлөмж</button></div>
-                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#papersize"><i class="fas fa-sticky-note"></i> Цаасны хэмжээ</button></div>
-                    <div class="col"><button type="button" class="w-100 btn btn-warning rounded" data-toggle="modal" data-target="#warning"><i class="fas fa-exclamation-circle"></i> Анхаарах зүйлс</button></div>
+                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#guide"><i class="fas fa-info-circle"></i> Guidance</button></div>
+                    <div class="col"><button type="button" class="w-100 btn btn-primary rounded" data-toggle="modal" data-target="#papersize"><i class="fas fa-sticky-note"></i> Paper size</button></div>
+                    <div class="col"><button type="button" class="w-100 btn btn-warning rounded" data-toggle="modal" data-target="#warning"><i class="fas fa-exclamation-circle"></i> Warning</button></div>
                 </div>
             </div>{{-- Col End --}}
         </div>{{-- Row end --}}
@@ -189,7 +189,7 @@
 {{view('data.guide')}}
 	<div id="technology" class="section lb">
         <div class="section-title text-center">
-				<h3>Технологи</h3>
+				<h3>Technology</h3>
 				<p></p>
             </div><!-- end title -->
 
@@ -285,7 +285,7 @@
     </div><!-- end section -->
     <div class="section db">
         <div class="section-title text-center">
-            <h3 class="text-light">Нэмэлт чимэглэл</h3>
+            <h3 class="text-light">Accessorizing</h3>
             <p></p>
         </div><!-- end title -->
 
@@ -330,7 +330,7 @@
         </div>{{-- Container end --}}
          <div id="news" class="section lb">
         <div class="section-title text-center">
-				<h3 >Техник, Технологи</h3>
+				<h3>Technic, Technology</h3>
 				<p></p>
             </div><!-- end title -->
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
@@ -338,49 +338,49 @@
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/1.mp4">
                             <img class="w-100" src="uploads/tech/1.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel w-100"><h1 class="text-dark">Ном хэрхэн хэвлэгддэг вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel w-100"><h1 class="text-dark">How does a book printed?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/naaltaa.mp4">
                             <img class="w-100" src="uploads/tech/2.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Ном наалтаар бэхлэх тухай</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">About gluing a book to set in</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/2.mp4">
                             <img class="w-100" src="uploads/tech/3.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Номыг үдээгээр хэрхэн бэхэлдэг вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">How to set a book in using laces?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/3.mp4">
                             <img class="w-100" src="uploads/tech/4.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Нугалааг хэрхэн хийдэг вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">How to make a folding?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/oyo.mp4">
                             <img class="w-100" src="uploads/tech/5.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Номыг хэрхэн оёж бэхэлдэг вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">How to set in a book?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/4.mp4">
                             <img class="w-100" src="uploads/tech/6.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Гурван тал огтлоо гэж юу вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">What is a three-sided intersection?</h1></div>
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="videotech" href="uploads/video/tech/ctp.mp4">
                             <img class="w-100" src="uploads/tech/7.png">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">Сomputer Тo Рlate технологи гэж юу вэ?</h1></div>
+                            <div class="uk-overlay uk-overlay-default uk-position-bottom text-right uk-panel"><h1 class="text-dark">What is a computer to plate?</h1></div>
                         </a>
                     </li>
 
@@ -398,7 +398,7 @@
 
     <div id="news" class="section db">
         <div class="section-title text-center">
-				<h3 class="text-light">Мэдээ, Мэдээлэл</h3>
+				<h3 class="text-light">News</h3>
 				<p></p>
             </div><!-- end title -->
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">

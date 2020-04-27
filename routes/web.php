@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/eng', function () {
+    return view('eng.welcome');
+});
 Route::post('/send', 'MainController@mail');
 
 Route::get('/product/{book}', function () {
