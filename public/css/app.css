@@ -10957,13 +10957,32 @@ a.text-dark:focus {
 
 @media (min-width: 100px) {
   .draw {
-    display: none;
+    height: 450px;
+  }
+
+  .mover-logo {
+    height: 32vh;
   }
 }
 
 @media (min-width: 710px) {
   .draw {
     display: unset;
+  }
+
+  .mover-logo {
+    display: block;
+    height: 40vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .draw {
+    height: auto;
+  }
+
+  .mover-logo {
+    height: 96vh;
   }
 }
 

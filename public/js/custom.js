@@ -125,14 +125,8 @@
             }
         });
 
-        $("#preloader")
-            .delay(200)
-            .on(500)
-            .fadeOut("slow");
-        $(".preloader")
-            .delay(200)
-            .on(600)
-            .fadeOut("slow");
+        $("#preloader").fadeOut();
+        $(".preloader").fadeOut();
     });
 
     // Gallery Filter
