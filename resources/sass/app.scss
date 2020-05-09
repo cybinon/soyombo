@@ -14,12 +14,15 @@
     clip-path: circle(80px at center);
     filter: grayscale(100%);
 }
-
+.hdfull {
+    height: 100vh;
+    position: absolute;
+}
 .mover-logo {
-    background: #fff;
+    background: transparent;
     background-size: cover;
     margin-top: 2rem;
-    height: 100vh;
+    height: 96vh;
     padding: 30px;
     z-index: 11;
 }
