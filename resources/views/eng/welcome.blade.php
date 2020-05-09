@@ -35,8 +35,8 @@
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-            <li class="nav-item active bg-primary border border-primary rounded-circle">
-              <a class="nav-link text-white" href="/">MNG</a>
+            <li class="nav-item border rounded">
+              <a class="nav-link" href="/">MNG</a>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@
 <div id="services" class="section db" >
 	<div class="container-fluid">
 		<div class="section-title text-center">
-			<h3 class="text-light">Захиалгын Процесс</h3>
+			<h3 class="text-light">Order steps</h3>
 			<p></p>
 		</div><!-- end title -->
 

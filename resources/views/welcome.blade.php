@@ -35,8 +35,8 @@
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Холбоо Барих</a>
             </li>
-            <li class="nav-item active bg-primary border border-primary rounded-circle">
-              <a class="nav-link text-white" href="/eng">ENG</a>
+            <li class="nav-item border rounded">
+              <a class="nav-link" href="/eng">ENG</a>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@
 <div id="services" class="section db" >
 	<div class="container-fluid">
 		<div class="section-title text-center">
-			<h3 class="text-light">Захиалгын Процесс</h3>
+			<h3 class="text-light">Захиалгын процесс</h3>
 			<p></p>
 		</div><!-- end title -->
 

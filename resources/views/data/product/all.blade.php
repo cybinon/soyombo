@@ -1,7 +1,7 @@
 
 {{-- Ном """""""""""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="bookp">
-    <h1 class="uk-h2 text-center font-weight-bold">Ном</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Ном</h1>
     <div class="row">
         <div class="col">
             <a href="/uploads/product/book/1.png" data-fancybox="book"><img src="/uploads/product/book/1.png" alt="The Nom"></a>
@@ -98,7 +98,7 @@
 </div>{{-- Text Dark End --}}
 
 <div class="text-dark products" id="diaryp">
-    <h1 class="uk-h2 text-center font-weight-bold">Тэмдэглэлийн дэвтэр</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Тэмдэглэлийн дэвтэр</h1>
 
     <div class="row">
         <div class="col">
@@ -150,7 +150,7 @@
 
 {{-- Сэтгүүл """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="magazinep">
-    <h1 class="uk-h2 text-center font-weight-bold">Сэтгүүл</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Сэтгүүл</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/magazine/1.png" data-fancybox="magazine"><img src="uploads/product/magazine/1.png" alt="product"></a>
@@ -201,7 +201,7 @@
 
 {{-- Сонин """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="newspaperp">
-    <h1 class="uk-h2 text-center font-weight-bold">Сонин</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Сонин</h1>
 
     <div class="row">
         <div class="col">
@@ -253,7 +253,7 @@
 
 {{-- Танилцуулга """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="posterp">
-    <h1 class="uk-h2 text-center font-weight-bold">Танилцуулга, Плакат</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Танилцуулга, Плакат</h1>
      <div class="row">
         <div class="col">
              <a href="" data-fancybox="poster"><img src="uploads/product/poster/5.png" alt="product"></a>
@@ -348,7 +348,7 @@
 
 {{-- Өргөмжлөл, батламж """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="certificatep">
-    <h1 class="uk-h2 text-center font-weight-bold">Өргөмжлөл, Батламж</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Өргөмжлөл, Батламж</h1>
    <div class="row justify-content-center">
         <div class="col-6">
              <a href="uploads/product/certification/1.png" data-fancybox="certification"><img src="uploads/product/certification/1.png" alt="product"></a>
@@ -368,7 +368,7 @@
 
 {{-- Урилга мэндчилгээ """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="invitationp">
-    <h1 class="uk-h2 text-center font-weight-bold">Урилга, Мэндчилгээ</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Урилга, Мэндчилгээ</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/invitation/1.png" data-fancybox="invitation"><img src="uploads/product/invitation/1.png" alt="product"></a>
@@ -440,7 +440,7 @@
 
 {{-- calendar """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="calendarp">
-    <h1 class="uk-h2 text-center font-weight-bold">Календарь, Цаг тооны бичиг</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Календарь, Цаг тооны бичиг</h1>
     <div class="row justify-content-center">
         <div class="col-6">
              <a href="uploads/product/calendar/1.png" data-fancybox="calendar"><img src="uploads/product/calendar/1.png" alt="product"></a>
@@ -460,7 +460,7 @@
 
 {{-- Security, Value Paper """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="securityp">
-    <h1 class="uk-h2 text-center font-weight-bold">Үнэт цаас, Нууцлал</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Үнэт цаас, Нууцлал</h1>
      <div class="row">
         <div class="col">
              <a href="uploads/product/security/1.png" data-fancybox="security"><img src="uploads/product/security/1.png" alt="product"></a>
@@ -476,7 +476,7 @@
 
 {{-- Blank """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="blankp">
-    <h1 class="uk-h2 text-center font-weight-bold">Бланк</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Бланк</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/blank/1.png" data-fancybox="blank"><img src="uploads/product/blank/1.png" alt="product"></a>
@@ -536,7 +536,7 @@
 
 {{-- Bill """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="billp">
-    <h1 class="uk-h2 text-center font-weight-bold">Билл</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Билл</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/bill/1.png" data-fancybox="bill"><img src="uploads/product/bill/1.png" alt="product"></a>
@@ -586,7 +586,7 @@
 
 {{-- Dugtui """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="envelopep">
-    <h1 class="uk-h2 text-center font-weight-bold">Дугтуй, Карматай хавтас</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Дугтуй, Карматай хавтас</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/envelope/1.png" data-fancybox="envelope"><img src="uploads/product/envelope/1.png" alt="product"></a>
@@ -638,7 +638,7 @@
 
 {{-- Neriin huudas """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="bussinessp">
-    <h1 class="uk-h2 text-center font-weight-bold">Нэрийн хуудас</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Нэрийн хуудас</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/bussiness/1.png" data-fancybox="bussiness"><img src="uploads/product/bussiness/1.png" alt="product"></a>
@@ -718,7 +718,7 @@
 
 {{-- Shoshgo """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="labelp">
-    <h1 class="uk-h2 text-center font-weight-bold">Шошго</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Шошго</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/label/1.png" data-fancybox="label"><img src="uploads/product/label/1.png" alt="product"></a>
@@ -768,7 +768,7 @@
 
 {{-- Uut, tor """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="paperbagp">
-    <h1 class="uk-h2 text-center font-weight-bold">Цаасан уут, Тор</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Цаасан уут, Тор</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/paperbag/5.png" data-fancybox="paperbag"><img src="uploads/product/paperbag/5.png" alt="product"></a>
@@ -824,7 +824,7 @@
 
 {{-- Hairtsag """""""""""""""""""""""""""""""""""""""""""""""""""""" --}}
 <div class="text-dark products" id="packagingp">
-    <h1 class="uk-h2 text-center font-weight-bold">Хайрцаг, Сав, Багалаа, Боодол</h1>
+    <h1 id="producttitle" class="uk-h2 text-center font-weight-bold">Хайрцаг, Сав, Багалаа, Боодол</h1>
     <div class="row">
         <div class="col">
              <a href="uploads/product/packaging/1.png" data-fancybox="packaging"><img src="uploads/product/packaging/5.png" alt="product"></a>

@@ -99,6 +99,7 @@
 
         $("#klishep").show();
         $("#bookp").show();
+        $("#bookp" + " #producttitle").text($("#book").text());
         $(".content").hide();
         $("#klishep .content").show();
 
@@ -216,12 +217,15 @@
 })(jQuery);
 
 function switcher(content) {
+    var title = $("#" + content).text();
+    console.log(title);
     content = "#" + content + "p";
     $(".products").fadeOut("slow");
     $(content + " .content").fadeIn();
     $(content)
         .delay(700)
         .fadeIn("slow");
+    $(content + " #producttitle").text(title);
 }
 function switcherc(content) {
     content = "#" + content + "p";
