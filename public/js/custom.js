@@ -102,6 +102,7 @@
         $("#bookp" + " #producttitle").text($("#book").text());
         $(".content").hide();
         $("#klishep .content").show();
+        $("#klishep" + " #servicetitle").text($("#klishe").text());
 
         $(".texter").hide();
 
@@ -228,10 +229,12 @@ function switcher(content) {
     $(content + " #producttitle").text(title);
 }
 function switcherc(content) {
+    var title = $("#" + content).text();
     content = "#" + content + "p";
     $(".prointo").fadeOut("slow");
     $(content + " .content").fadeIn();
     $(content)
         .delay(700)
         .fadeIn("slow");
+    $(content + " #servicetitle").text(title);
 }
