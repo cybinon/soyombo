@@ -131,7 +131,7 @@
                                     <div class="form-group">
                                         <select name="proprice" id="proprice" class="form-control rounded" value="1">
                                             <option value="Ном">Book</option>
-                                            <option value="Тэмдэглэл">Diary</option>
+                                            <option value="Тэмдэглэл">Notebook</option>
                                             <option value="Сэтгүүл">Magazine</option>
                                             <option value="Сонин">Newspaper</option>
                                             <option value="Танилцуулга">Report, Poster</option>
@@ -174,7 +174,7 @@
 								<div class="clearfix"></div>
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Илгээх</button>
+									<button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send an e-mail</button>
 								</div>
 							</div>
 						</form>

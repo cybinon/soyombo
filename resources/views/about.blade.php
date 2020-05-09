@@ -13,7 +13,7 @@
             <div class="col-md-6 mt-5 widget">
                 <div class="right-box-pro wow fadeIn">
                     {{-- <img style="max-height:600px" src="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" alt="" class="img-fluid img-rounded"> --}}
-                    <video class="w-100" poster="https://cdn.discordapp.com/attachments/699189298057969664/699193967811493918/new-soyombo.jpg" src="/uploads/video/intro.mp4" controls></video>
+                    <video class="w-100" src="/uploads/video/intro.mp4" controls></video>
                 </div><!-- end media -->
             </div><!-- end col -->
         </div><!-- end row -->
@@ -26,7 +26,7 @@
 					<div class="services-inner-box">
 						<h2>
 							<div class="text-center">
-							<img src="https://cdn.discordapp.com/attachments/699189298057969664/699200460271124530/01_alsiin_haraa.png" alt="browse">
+							<img src="/uploads/other/service/1.png" alt="team">
 							</div>
 							Алсын хараа<br>&nbsp;
 							<p>Бид шинийг эрэлхийлж, дэвшилтэт технологиор салбартаа манлайлж, хэрэглэгчийнхээ байнгын сонголт байхыг эрхэмлэнэ.</p>
@@ -40,7 +40,7 @@
 					<div class="services-inner-box">
 						<h2>
 							<div class="text-center">
-							<img src="https://cdn.discordapp.com/attachments/699189298057969664/699200464708698152/2_erhem_zorilgo.png" alt="plan">
+							<img src="/uploads/other/service/2.png" alt="team">
 							</div>Эрхэм зорилго<br>&nbsp;
 							<p>
 								Тэмүүллээр жигүүрлэж, харилцагчаа дээдэлсэн, ямагт шинийг эрэлхийлсэн компани байна.
@@ -52,7 +52,7 @@
 					<div class="services-inner-box">
 						<h2>
 							<div class="text-center">
-							<img src="https://cdn.discordapp.com/attachments/699189298057969664/699200469712502844/3_chanariin_bodlogo.png" alt="destination">
+							<img src="/uploads/other/service/3.png" alt="team">
 							</div>Чанарын бодлого<br>&nbsp;
 							<p>
 								Чин сэтгэлтэй чадварлаг боловсон хүчин, дэвшилтэт технологи, хэрэглэгчийн сэтгэл ханамжид суурилан, чанартай бүтээгдэхүүн үйлдвэрлэж, байгальд ээлтэй хамтдаа хөгжсөн компани байна.
@@ -64,7 +64,7 @@
 					<div class="services-inner-box">
 						<h2>
 							<div class="text-center">
-							<img src="https://cdn.discordapp.com/attachments/699189298057969664/699200482337357834/4_unetzuils.png" alt="team">
+							<img src="/uploads/other/service/4.png" alt="team">
 							</div>Үнэт зүйлс
 							<p>
 							<br>*Хэрэглэгч, Харилцагч

@@ -58,42 +58,34 @@
 
 		<div class="row widget-list justify-content-center">
 			<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
+                <a data-fancybox="order process" href="/uploads/other/order/1.png">
+                    <img class="rounded-img" src="/uploads/other/order/1.png" alt="1">
+                </a>
+            </div><!-- end col -->
 
-							<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209384835940362/21.png" alt="1">
+            <div class="col-lg-2 col-md-6 widget" >
+                <a data-fancybox="order process" href="/uploads/other/order/2.png">
+                    <img class="rounded-img" src="/uploads/other/order/2.png" alt="1">
+                </a>
+            </div><!-- end col -->
 
-						<h2>Захиалга хүлээн авах</h2>
-						<p>Захиалах бүтээгдэхүүний нэр төрөл, хэлбэр хэмжээ, техник үзүүлэлтийг захиалгын менежерт мэдэгдэж урьдчилсан үнийн санал, бүтээгдэхүүн бэлэн болох тойм хугацааг гаргуулна.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209456965386280/22.png" alt="1">
-						<h2>Эх бэлтгэл, дизайн</h2>
-						<p>Бүтээгдэхүүний эх загвар, дизайныг хийлгэж, 1 удаа уншилт хэвлүүлэн авч засварлан, гарын үсэг зурж баталгаажуулсны дараа захиалга өгч үйлдвэрлэлд шилжинэ.<br>&nbsp;</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209580818989086/23.png" alt="1">
-						<h2>Хэвлэх</h2>
-						<p>Эх нь эцсийн байдлаар батлагдан дараагийн дамжлагад шилжин, хавтан боловсруулах, хэвлэх цехүүдээр технологийн дагуу хэвлэгдэн гарна. Манай үйлдвэр 5 өнгөөр шууд хэвлэх давуу талтай.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209874613075968/24.png" alt="1">
-						<h2>Хэвлэсний дараах ажиллагаа</h2>
-						<p>Хэвлэх цехээс гарсан хэвлэмэл хуудсуудыг автомат нугалаа, холио, үдээ, оёо болон наалт, чамин урлал зэрэг цехүүдээр дамжин эцсийн бүтээгдэхүүн болно.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget">
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699210063558213642/25.png" alt="1">
-						<h2>Бэлэн бүтээгдэхүүн хүлээлгэн өгөх</h2>
-						<p>Бэлэн болсон бүтээгдэхүүний чанарыг шалгасны дараа пресслэх, хайрцаглах, пакетлах зэрэг баглаа боодлын аль тохиромжтойг сонгон савлаж, захиалагчийн гарт хүргэнэ.</p>
-					</div>
-				</div><!-- end col -->
+            <div class="col-lg-2 col-md-6 widget" >
+               <a data-fancybox="order process" href="/uploads/other/order/3.png">
+                    <img class="rounded-img" src="/uploads/other/order/3.png" alt="1">
+                </a>
+            </div><!-- end col -->
+
+            <div class="col-lg-2 col-md-6 widget" >
+                <a data-fancybox="order process" href="/uploads/other/order/4.png">
+                    <img class="rounded-img" src="/uploads/other/order/4.png" alt="1">
+                </a>
+            </div><!-- end col -->
+
+            <div class="col-lg-2 col-md-6 widget">
+                <a data-fancybox="order process" href="/uploads/other/order/5.png">
+                    <img class="rounded-img" src="/uploads/other/order/5.png" alt="1">
+                </a>
+            </div><!-- end col -->
 		</div>
 
 	</div>
@@ -195,7 +187,7 @@
 
         <div class="uk-container uk-container-large">
             <div class="row widget-list">
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="message-box text-dark">
                         <h2>Inkzone CIP4 өнгөний удирдлагын онлайн системийн онцлог, танилцуулга</h2>
                         <p>
@@ -209,7 +201,7 @@
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/undraw/inkzone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
@@ -217,12 +209,12 @@
 			</div><!-- end row -->
 
 			<div class="row mt-5" >
-				<div class="col-md-6 mt-5 widget">
+				<div class="col-md-6 mt-5 ">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/iso.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="message-box text-dark">
                         <h2>ISO 9001-2015 олон улсын чанарын удирдлагын тогтолцоо</h2>
                         <p> Бид ISO 9001-2015 чанарын удирдлагын тогтолцоогоо амжилттай нэвтрүүлэн 2 удаагаа баталгаажууллаа. Соёмбо принтинг компани 2017 оноос эхлэн үйлдвэрлэл, бүтээгдэхүүн үйлчилгээнийхээ чанарыг дээшлүүлэх, ажилчдын ажиллах орчинд сайжруулах, харилцагчидын сэтгэл ханамжийг нэмэгдүүлэх зорилгоор ISO 9001-2015 Олон улсын чанарын удирдлагын тогтолцоог нэвтрүүлсэн билээ.
@@ -236,7 +228,7 @@
                 </div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row mt-5" >
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="message-box text-dark">
                         <h2>Soyombo spelling алдаа шалгагч программ</h2>
                         <p> Бид нийгмийн хариуцлагын хүрээнд алдаагүй бүтээгдэхүүн үйлдвэрлэх зорилгоор Soyombo spelling программ зохион бүтээв.
@@ -255,19 +247,19 @@
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/undraw/spelling.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row mt-5" >
-				<div class="col-md-6 mt-5 widget">
+				<div class="col-md-6 mt-5 ">
                     <div class="right-box-pro">
                         <img style="max-height:600px" src="uploads/undraw/pantone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5 ">
                     <div class="message-box text-dark">
                         <h2>Pantone solid coated Онцлог, танилцуулга</h2>
                         <p> 2019 оны 9-р сараас эхлэн “Соёмбо Принтинг” ХХК БНСУ-ын DAIHAN INK Co.,Ltd-ээс албан ёсны эрхтэйгээр олон улсын PANTONE өнгөний системийн үндсэн 2300 гаруй өнгийн будгийг импортолж, салбартаа анх удаа PANTONE будгийг стандартын дагуу найруулан өөрсдийн үйлдвэрлэлд болон бусад хэвлэлийн компаниудад борлуулж эхлээд байна.

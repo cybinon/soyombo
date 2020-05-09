@@ -89,7 +89,7 @@
     $(".parallaxie").parallaxie();
 
     // LOADER
-    $(window).ready(function() {
+    $(window).load(function() {
         $(".products").hide();
         $(".prointo").hide();
         //Contact inputs

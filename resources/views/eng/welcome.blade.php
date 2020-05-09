@@ -58,42 +58,34 @@
 
 		<div class="row widget-list justify-content-center">
 			<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
+                <a data-fancybox="order process" href="/uploads/other/order/en1.png">
+                    <img class="rounded-img" src="/uploads/other/order/en1.png" alt="1">
+                </a>
+            </div><!-- end col -->
 
-							<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209384835940362/21.png" alt="1">
+            <div class="col-lg-2 col-md-6 widget" >
+                <a data-fancybox="order process" href="/uploads/other/order/en2.png">
+                    <img class="rounded-img" src="/uploads/other/order/en2.png" alt="1">
+                </a>
+            </div><!-- end col -->
 
-						<h2>Receiving an order</h2>
-						<p>Letting the order manager know about an ordering product’s name category, size, shape, machinery rates, and figuring out a tentative offer and a length of time to make a product ready.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209456965386280/22.png" alt="1">
-						<h2>Design & Origination</h2>
-						<p>Getting done a make-up page and design of a product, print out and read for one time to make some changes. After signing on a confirmation paper of a draft, order will be confirmed and manufacturing part will start.<br>&nbsp;</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209580818989086/23.png" alt="1">
-						<h2>Printing</h2>
-						<p>A make-up page will be confirmed as a final version, moved to the next stage, and gone through a board-producing and printing departments as how the printing technology works. Our factory’s advantage is to print in 5 different colors directly.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget" >
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699209874613075968/24.png" alt="1">
-						<h2>Process after printing</h2>
-						<p>Printed pages sent from a printing department goes through automatic folding, mixing, lacing, gluing, art & styling departments to build a final product.</p>
-					</div>
-				</div><!-- end col -->
-				<div class="col-lg-2 col-md-6 widget">
-					<div class="services-inner-box">
-						<img class="w-100" style="position: relative; z-index:1;" src="https://cdn.discordapp.com/attachments/699189298057969664/699210063558213642/25.png" alt="1">
-						<h2>Handing final product</h2>
-						<p>After checking a quality of a final product, we choose the most suitable one among pressing, boxing, packaging methods, and hand to a consumer.</p>
-					</div>
-				</div><!-- end col -->
+            <div class="col-lg-2 col-md-6 widget" >
+               <a data-fancybox="order process" href="/uploads/other/order/en3.png">
+                    <img class="rounded-img" src="/uploads/other/order/en3.png" alt="1">
+                </a>
+            </div><!-- end col -->
+
+            <div class="col-lg-2 col-md-6 widget" >
+                <a data-fancybox="order process" href="/uploads/other/order/en4.png">
+                    <img class="rounded-img" src="/uploads/other/order/en4.png" alt="1">
+                </a>
+            </div><!-- end col -->
+
+            <div class="col-lg-2 col-md-6 widget">
+                <a data-fancybox="order process" href="/uploads/other/order/en5.png">
+                    <img class="rounded-img" src="/uploads/other/order/en5.png" alt="1">
+                </a>
+            </div><!-- end col -->
 		</div>
 
 	</div>
@@ -115,7 +107,7 @@
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="diary">
-                    <i class="fa fa-book"></i> Тэмдэглэлийн дэвтэр
+                    <i class="fa fa-book"></i> Notebook
                 </button>
 
                 <button class="widget text-left w-100 mb-3 btn btn-primary" onclick="switcher(this.id)" id="magazine">
@@ -195,9 +187,9 @@
 
         <div class="uk-container uk-container-large">
             <div class="row widget-list">
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="message-box text-dark">
-                        <h2>Inkzone CIP4 өнгөний удирдлагын онлайн системийн онцлог, танилцуулга</h2>
+                        <h2>Certified to the “Inkzone CIP4”, Online Color Controlling System.</h2>
                         <p>
                             Соёмбо Принтинг ХХК 2019 оны 6-р сард Швейцарь улсын Zurikh хотод байрлалтай DIGITAL INFORMATION компанийн INKZONE CIP4 өнгөний удирдлагын цогц онлайн системийг амжилттай нэвтрүүллээ. Тус систем нь CTP RIP программаас өнгөний орцыг
                             <span class="">
@@ -209,7 +201,7 @@
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/undraw/inkzone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
@@ -217,14 +209,14 @@
 			</div><!-- end row -->
 
 			<div class="row mt-5" >
-				<div class="col-md-6 mt-5 widget">
+				<div class="col-md-6 mt-5">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/iso.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="message-box text-dark">
-                        <h2>ISO 9001-2015 олон улсын чанарын удирдлагын тогтолцоо</h2>
+                        <h2>Implemented the “ISO 9001-2015”, International Quality Management Systems.</h2>
                         <p> Бид ISO 9001-2015 чанарын удирдлагын тогтолцоогоо амжилттай нэвтрүүлэн 2 удаагаа баталгаажууллаа. Соёмбо принтинг компани 2017 оноос эхлэн үйлдвэрлэл, бүтээгдэхүүн үйлчилгээнийхээ чанарыг дээшлүүлэх, ажилчдын ажиллах орчинд сайжруулах, харилцагчидын сэтгэл ханамжийг нэмэгдүүлэх зорилгоор ISO 9001-2015 Олон улсын чанарын удирдлагын тогтолцоог нэвтрүүлсэн билээ.
                             <span class="">
                                 2018 онд бид олон улсын аудитын SES байгууллагатай хамтарч ажиллан ажлаа дүгнүүлэн чанарын удирдлагын тогтолцооны сертификатаа гардан авсан билээ. 2019 оны 12 сард 2 дахь шатны аудитын шалгалтаар "Олон улсын чанарын удирдлагын тогтолцоо" нэвтрүүлсэн гэдгээ батлан 2 дахь удаагаа баталгаажуулав.
@@ -236,9 +228,9 @@
                 </div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row mt-5" >
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="message-box text-dark">
-                        <h2>Soyombo spelling алдаа шалгагч программ</h2>
+                        <h2>Created the “Soyombo Spelling” error checking program.</h2>
                         <p> Бид нийгмийн хариуцлагын хүрээнд алдаагүй бүтээгдэхүүн үйлдвэрлэх зорилгоор Soyombo spelling программ зохион бүтээв.
                             2018 оны 9-р сараас эхлэн “Соёмбо Принтинг” ХХК-ийн санаачлагаар уг алдаа шалгагчийг Монгол Улсын Ерөнхийлөгчийн дэргэдэх Хэлний бодлогын үндэсний зөвлөлөөс эрхлэн гаргасан “Монгол хэлний зөв бичих дүрмийн журамласан толь”-д тулгуурлан үгийн санг бүрдүүлж, дүрмийн өөрчлөлтүүдийг тусган хөгжүүлж эхэлсэн билээ.
                         <span class="">
@@ -255,21 +247,21 @@
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="right-box-pro wow fadeIn">
                         <img style="max-height:600px" src="uploads/undraw/spelling.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row mt-5" >
-				<div class="col-md-6 mt-5 widget">
+				<div class="col-md-6 mt-5">
                     <div class="right-box-pro">
                         <img style="max-height:600px" src="uploads/undraw/pantone.png" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
-                <div class="col-md-6 mt-5 widget">
+                <div class="col-md-6 mt-5">
                     <div class="message-box text-dark">
-                        <h2>Pantone solid coated Онцлог, танилцуулга</h2>
+                        <h2>For the first time in the Mongolian Printing Industry, we blend the “Pantone Solid coated” color as the way technology works. </h2>
                         <p> 2019 оны 9-р сараас эхлэн “Соёмбо Принтинг” ХХК БНСУ-ын DAIHAN INK Co.,Ltd-ээс албан ёсны эрхтэйгээр олон улсын PANTONE өнгөний системийн үндсэн 2300 гаруй өнгийн будгийг импортолж, салбартаа анх удаа PANTONE будгийг стандартын дагуу найруулан өөрсдийн үйлдвэрлэлд болон бусад хэвлэлийн компаниудад борлуулж эхлээд байна.
                             <span class="">
                                 Тус өнгөний систем нь олон улсын хэвлэл болон бүх төрлийн будаг, өнгөт хавтан, тавилга, интерьер болон экстерьер дизайн гэх мэт маш өргөн хүрээтэй хэрэглэгддэг бөгөөд өнгийг ямар ч алдаагүй найдвартай дамжуулах шилдэг систем билээ.
@@ -294,31 +286,31 @@
                 <!--book-->
                 <div class="col-md-3 widget-list">
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="klishe">
-                        Клише /Халуун дардас/
+                        Cliché
                     </button>
 
                     <button  class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="emboss">
-                        Эмбосс /Товгор дардас/
+                        Emboss
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="deboss">
-                        Дебосс /Хуурай дардас/
+                        Deboss
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="5c">
-                        5С UV Лак
+                        5C UV varnish
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="lazer">
-                        Лазер зүсэлт
+                        Laser undercut
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="3d">
-                        3D бүрэлт
+                        3D lamination
                     </button>
 
                     <button class="text-left w-100 mb-3 btn btn-primary" onclick="switcherc(this.id)" id="panobook">
-                        PANOBOOK
+                        Panobook
                     </button>
 
                 </div>
