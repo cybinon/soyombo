@@ -22,7 +22,7 @@
     background: transparent;
     background-size: cover;
     margin-top: 2rem;
-    height: 96vh;
+    height: 50vh;
     padding: 30px;
     z-index: 11;
 }
@@ -92,10 +92,11 @@
 
 @media (min-width: 100px) {
     .draw {
-        height: 450px;
+        display: none;
+        height: 200px;
     }
     .mover-logo {
-        height: 32vh;
+        height: 10vh;
     }
 }
 @media (min-width: 710px) {
@@ -112,7 +113,7 @@
         height: auto;
     }
     .mover-logo {
-        height: 96vh;
+        height: 50vh;
     }
 }
 @media (min-width: 1200px) {
