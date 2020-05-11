@@ -105,15 +105,12 @@
     }
     .mover-logo {
         display: block;
-        height: 40vh;
+        height: 30vh;
     }
 }
 @media (min-width: 992px) {
     .draw {
         height: auto;
-    }
-    .mover-logo {
-        height: 50vh;
     }
 }
 @media (min-width: 1200px) {
