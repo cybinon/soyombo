@@ -10,50 +10,50 @@
 </div>
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
-            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
+            <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/1.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/1.png">
+                            <img class="w-100 border" src="uploads/banner/1.png">
 
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/2.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/2.png">
+                            <img class="w-100 border" src="uploads/banner/2.png">
 
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/3.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/3.png">
+                            <img class="w-100 border" src="uploads/banner/3.png">
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/4.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/4.png">
+                            <img class="w-100 border" src="uploads/banner/4.png">
 
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/5.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/5.png">
+                            <img class="w-100 border" src="uploads/banner/5.png">
 
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/6.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/6.png">
+                            <img class="w-100 border" src="uploads/banner/6.png">
                         </a>
                     </li>
 
                     <li>
                         <a data-fancybox="startBanner" href="uploads/banner/7.png">
-                            <img class="w-100 border rounded-pill" src="uploads/banner/7.png">
+                            <img class="w-100 border" src="uploads/banner/7.png">
 
                         </a>
                     </li>
