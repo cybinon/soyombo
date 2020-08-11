@@ -1,4 +1,4 @@
 <p><span style="">Цаасан хэвлэл дээр хэсэгчлэн болон бүтэн, гөлгөр лак болон арзгар лакийг хослуулан гоёмсог харагдуулах UV лак тавьж чимэглэнэ.</span></p>
-<p><br></p><img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587201797.png">
+<p><br></p><img src="/uploads/chimeglel/lak.png">
 <p></p>
 <p><br></p>

@@ -1,4 +1,4 @@
 
 <p style=''><span style="">Металл хэв ашиглан халуун даралтын аргаар цаас, арьс шир, лидерин, даавуу зэрэг материал дээр алтлаг, мөнгөлөг гэх мэтчилэн төрөл бүрийн өнгөтэй полимер материал ашиглан чимэглэнэ.</span></p>
-<p style=''><span style=""><img src="https://myfiles.space/user_files/49685_37399589e73588b5/49685_custom_files/img1587201201.png"></span><br></p>
+<p style=''><span style=""><img src="/uploads/chimeglel/klishe.png"></span><br></p>
 <p><br></p>
