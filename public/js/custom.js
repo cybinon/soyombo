@@ -2,23 +2,22 @@
     Version: 1.0
 /****************************************** */
 
-(function($) {
+(function ($) {
     "use strict";
 
     // Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
         ) {
             var target = $(this.hash);
-            target = target.length
-                ? target
-                : $("[name=" + this.hash.slice(1) + "]");
+            target = target.length ?
+                target :
+                $("[name=" + this.hash.slice(1) + "]");
             if (target.length) {
-                $("html, body").animate(
-                    {
+                $("html, body").animate({
                         scrollTop: target.offset().top - 54
                     },
                     1000,
@@ -30,7 +29,7 @@
     });
 
     // Closes responsive menu when a scroll trigger link is clicked
-    $(".js-scroll-trigger").click(function() {
+    $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
     });
 
@@ -41,7 +40,7 @@
     });
 
     // Collapse Navbar
-    var navbarCollapse = function() {
+    var navbarCollapse = function () {
         $("#mainNav").addClass("navbar-shrink");
     };
     // Collapse now if page is not at top
@@ -50,17 +49,17 @@
     $(window).scroll(navbarCollapse);
 
     // Hide navbar when modals trigger
-    $(".portfolio-modal").on("show.bs.modal", function(e) {
+    $(".portfolio-modal").on("show.bs.modal", function (e) {
         $(".navbar").addClass("d-none");
     });
-    $(".portfolio-modal").on("hidden.bs.modal", function(e) {
+    $(".portfolio-modal").on("hidden.bs.modal", function (e) {
         $(".navbar").removeClass("d-none");
     });
 
     // Scroll to top
     if ($("#scroll-to-top").length) {
         var scrollTrigger = 100, // px
-            backToTop = function() {
+            backToTop = function () {
                 var scrollTop = $(window).scrollTop();
                 if (scrollTop > scrollTrigger) {
                     $("#scroll-to-top").addClass("show");
@@ -69,27 +68,22 @@
                 }
             };
         backToTop();
-        $(window).on("scroll", function() {
+        $(window).on("scroll", function () {
             backToTop();
         });
-        $("#scroll-to-top").on("click", function(e) {
+        $("#scroll-to-top").on("click", function (e) {
             e.preventDefault();
-            $("html,body").animate(
-                {
+            $("html,body").animate({
                     scrollTop: 0
                 },
                 700
             );
         });
     }
-
-    // Banner
-
     $(".heading").height($(window).height());
     $(".parallaxie").parallaxie();
 
-    // LOADER
-    $(window).load(function() {
+    $(window).ready(function () {
         $(".products").hide();
         $(".prointo").hide();
         //Contact inputs
@@ -106,11 +100,11 @@
 
         $(".texter").hide();
 
-        $("#catalog").mouseleave(function() {
+        $("#catalog").mouseleave(function () {
             $("#catalog .content").fadeOut(150);
         });
 
-        $("#infotype").on("change", function() {
+        $("#infotype").on("change", function () {
             $("#proprice").hide();
             $("#file").hide();
 
@@ -126,14 +120,14 @@
         });
 
         $("#preloader").fadeOut();
-        $(".preloader").fadeOut();
+        // $(".preloader").fadeOut();
     });
 
     // Gallery Filter
     var Container = $(".container");
-    Container.imagesLoaded(function() {
+    Container.imagesLoaded(function () {
         var portfolio = $(".gallery-menu");
-        portfolio.on("click", "button", function() {
+        portfolio.on("click", "button", function () {
             $(this)
                 .addClass("active")
                 .siblings()
@@ -157,22 +151,22 @@
         if (current > $this.data("count")) {
             $this.html($this.data("count"));
         } else {
-            setTimeout(function() {
+            setTimeout(function () {
                 count($this);
             }, 30);
         }
     }
-    $(".stat_count, .stat_count_download").each(function() {
+    $(".stat_count, .stat_count_download").each(function () {
         $(this).data("count", parseInt($(this).html(), 10));
         $(this).html("0");
         count($(this));
     });
 
     // CONTACT
-    jQuery(document).ready(function() {
-        $("#contactform").submit(function() {
+    jQuery(document).ready(function () {
+        $("#contactform").submit(function () {
             var action = $(this).attr("action");
-            $("#message").slideUp(750, function() {
+            $("#message").slideUp(750, function () {
                 $("#message").hide();
                 $("#submit")
                     .after(
@@ -180,8 +174,7 @@
                     )
                     .attr("disabled", "disabled");
                 $.post(
-                    action,
-                    {
+                    action, {
                         first_name: $("#first_name").val(),
                         last_name: $("#last_name").val(),
                         email: $("#email").val(),
@@ -191,12 +184,12 @@
                         comments: $("#comments").val(),
                         verify: $("#verify").val()
                     },
-                    function(data) {
+                    function (data) {
                         document.getElementById("message").innerHTML = data;
                         $("#message").slideDown("slow");
                         $("#contactform img.loader").fadeOut(
                             "slow",
-                            function() {
+                            function () {
                                 $(this).remove();
                             }
                         );
@@ -222,6 +215,7 @@ function switcher(content) {
         .fadeIn("slow");
     $(content + " #producttitle").text(title);
 }
+
 function switcherc(content) {
     var title = $("#" + content).text();
     content = "#" + content + "p";

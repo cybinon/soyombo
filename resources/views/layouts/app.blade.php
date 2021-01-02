@@ -20,13 +20,8 @@
     <link rel="shortcut icon" href="images/shortcut.png" type="image/png" />
     <link rel="apple-touch-icon" href="images/shortcut.png">
 
-
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-
-
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
